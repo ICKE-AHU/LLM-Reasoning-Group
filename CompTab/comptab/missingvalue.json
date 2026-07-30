@@ -1,0 +1,9466 @@
+[
+  {
+    "table_id": "missingvalue-Agricultural Production-001",
+    "title": "Crop Cultivation Records 2023",
+    "table": {
+      "header": [
+        "Farm_ID",
+        "Crop_Type",
+        "Seed_Variety",
+        "Land_Area_Acres",
+        "Yield_Per_Acre",
+        "Total_Yield_Tons"
+      ],
+      "rows": [
+        [
+          "F001",
+          "Wheat",
+          "Winter Red Wheat",
+          "120",
+          "2.8",
+          "336"
+        ],
+        [
+          "F002",
+          "Corn",
+          "Sweet Golden",
+          "85",
+          "4.2",
+          "357"
+        ],
+        [
+          "F003",
+          "Rice",
+          "Jasmine Long-Grain",
+          "95",
+          "3.1",
+          "294.5"
+        ],
+        [
+          "F004",
+          "Wheat",
+          "",
+          "140",
+          "2.9",
+          "406"
+        ],
+        [
+          "F005",
+          "Soybean",
+          "Premium Variety",
+          "110",
+          "2.2",
+          "242"
+        ],
+        [
+          "F006",
+          "Corn",
+          "Field Dent",
+          "75",
+          "4.0",
+          "300"
+        ],
+        [
+          "F007",
+          "Rice",
+          "Basmati Premium",
+          "88",
+          "3.3",
+          "290.4"
+        ],
+        [
+          "F008",
+          "Wheat",
+          "Winter Red Wheat",
+          "165",
+          "2.7",
+          "445.5"
+        ],
+        [
+          "F009",
+          "Soybean",
+          "Premium Variety",
+          "125",
+          "2.4",
+          "300"
+        ],
+        [
+          "F010",
+          "Corn",
+          "Sweet Golden",
+          "92",
+          "4.1",
+          "377.2"
+        ],
+        [
+          "F011",
+          "Rice",
+          "Jasmine Long-Grain",
+          "78",
+          "3.2",
+          "249.6"
+        ],
+        [
+          "F012",
+          "Wheat",
+          "Winter Red Wheat",
+          "155",
+          "2.6",
+          "403"
+        ],
+        [
+          "F013",
+          "",
+          "Jasmine Long-Grain",
+          "102",
+          "3.0",
+          "306"
+        ],
+        [
+          "F014",
+          "Soybean",
+          "Premium Variety",
+          "135",
+          "2.3",
+          "310.5"
+        ],
+        [
+          "F015",
+          "Corn",
+          "Field Dent",
+          "68",
+          "",
+          "272"
+        ],
+        [
+          "F016",
+          "Rice",
+          "Basmati Premium",
+          "91",
+          "3.4",
+          "309.4"
+        ],
+        [
+          "F017",
+          "Wheat",
+          "Winter Red Wheat",
+          "148",
+          "2.8",
+          "414.4"
+        ],
+        [
+          "F018",
+          "Soybean",
+          "Premium Variety",
+          "118",
+          "2.1",
+          "247.8"
+        ]
+      ]
+    },
+    "questions": [
+      "How many farms planted Winter Red Wheat in total?",
+      "What is the total land area dedicated to rice cultivation?",
+      "What is the average yield per acre for corn farms?"
+    ],
+    "answers": [
+      "5",
+      "454.0",
+      "4.0"
+    ],
+    "origin_answers": [
+      "5",
+      "354",
+      "4.1"
+    ],
+    "ids": [
+      "nu-1188",
+      "nu-1189",
+      "nu-1190"
+    ],
+    "domain": "Agricultural Production",
+    "subdomain": "Crop cultivation records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Seed_Variety": {
+        "type": "Missing Value",
+        "original": "Winter Red Wheat"
+      },
+      "13_Crop_Type": {
+        "type": "Missing Value",
+        "original": "Rice"
+      },
+      "15_Yield_Per_Acre": {
+        "type": "Missing Value",
+        "original": "4.0"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:49:43.660121+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Agricultural Production-002",
+    "title": "Farmland Weather Monitoring Data",
+    "table": {
+      "header": [
+        "Farm_ID",
+        "Crop_Type",
+        "Seed_Variety",
+        "Land_Area_Acres",
+        "Monthly_Rainfall_mm",
+        "Soil_pH"
+      ],
+      "rows": [
+        [
+          "F001",
+          "Wheat",
+          "Winter Red Wheat",
+          "45.2",
+          "78.5",
+          "6.8"
+        ],
+        [
+          "F002",
+          "Corn",
+          "Golden Hybrid",
+          "32.1",
+          "82.3",
+          "6.5"
+        ],
+        [
+          "F003",
+          "Rice",
+          "Jasmine Long-Grain",
+          "28.7",
+          "145.2",
+          "5.9"
+        ],
+        [
+          "F004",
+          "Wheat",
+          "",
+          "38.9",
+          "75.1",
+          "7.1"
+        ],
+        [
+          "F005",
+          "Soybean",
+          "Premium Variety",
+          "41.3",
+          "68.9",
+          "6.2"
+        ],
+        [
+          "F006",
+          "Rice",
+          "Basmati Premium",
+          "35.6",
+          "152.8",
+          "6.0"
+        ],
+        [
+          "F007",
+          "Corn",
+          "Sweet Kernel",
+          "29.4",
+          "79.7",
+          "6.7"
+        ],
+        [
+          "F008",
+          "Wheat",
+          "Winter Red Wheat",
+          "42.8",
+          "73.2",
+          "6.9"
+        ],
+        [
+          "F009",
+          "Soybean",
+          "Premium Variety",
+          "39.1",
+          "71.4",
+          "6.3"
+        ],
+        [
+          "F010",
+          "",
+          "Jasmine Long-Grain",
+          "33.5",
+          "148.6",
+          "5.8"
+        ],
+        [
+          "F011",
+          "Corn",
+          "Golden Hybrid",
+          "36.2",
+          "80.1",
+          "6.6"
+        ],
+        [
+          "F012",
+          "Rice",
+          "Short Grain",
+          "31.8",
+          "139.4",
+          ""
+        ],
+        [
+          "F013",
+          "Wheat",
+          "Winter Red Wheat",
+          "44.7",
+          "76.8",
+          "7.0"
+        ],
+        [
+          "F014",
+          "Soybean",
+          "Premium Variety",
+          "37.9",
+          "69.3",
+          "6.4"
+        ],
+        [
+          "F015",
+          "Corn",
+          "Sweet Kernel",
+          "40.5",
+          "78.9",
+          "6.8"
+        ],
+        [
+          "F016",
+          "Rice",
+          "Basmati Premium",
+          "34.2",
+          "150.7",
+          "5.9"
+        ],
+        [
+          "F017",
+          "Wheat",
+          "Winter Red Wheat",
+          "41.6",
+          "74.5",
+          "6.9"
+        ],
+        [
+          "F018",
+          "Soybean",
+          "Premium Variety",
+          "38.4",
+          "70.2",
+          "6.1"
+        ]
+      ]
+    },
+    "questions": [
+      "How many farms are growing Winter Red Wheat variety?",
+      "What is the total land area dedicated to rice cultivation?"
+    ],
+    "answers": [
+      "5",
+      "164.0"
+    ],
+    "origin_answers": [
+      "5",
+      "133.8"
+    ],
+    "ids": [
+      "nu-1191",
+      "nu-1192"
+    ],
+    "domain": "Agricultural Production",
+    "subdomain": "Farmland weather monitoring data",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Seed_Variety": {
+        "type": "Missing Value",
+        "original": "Winter Red Wheat"
+      },
+      "10_Crop_Type": {
+        "type": "Missing Value",
+        "original": "Rice"
+      },
+      "12_Soil_pH": {
+        "type": "Missing Value",
+        "original": "6.1"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:50:00.174180+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Agricultural Production-004",
+    "title": "Agricultural Input Records - Seed and Fertilizer Application Data",
+    "table": {
+      "header": [
+        "Farm_ID",
+        "Crop_Type",
+        "Seed_Variety",
+        "Land_Area_Acres",
+        "Fertilizer_Type",
+        "Application_Rate_lbs_per_acre"
+      ],
+      "rows": [
+        [
+          "F001",
+          "Corn",
+          "Pioneer 1234",
+          "120",
+          "Nitrogen",
+          "150"
+        ],
+        [
+          "F002",
+          "Wheat",
+          "Winter Red",
+          "85",
+          "Phosphate",
+          "80"
+        ],
+        [
+          "F003",
+          "Soybean",
+          "Roundup Ready",
+          "95",
+          "Potash",
+          "60"
+        ],
+        [
+          "F004",
+          "Corn",
+          "DeKalb 6789",
+          "110",
+          "Nitrogen",
+          "145"
+        ],
+        [
+          "F005",
+          "",
+          "Jasmine Long-Grain",
+          "75",
+          "Nitrogen",
+          "120"
+        ],
+        [
+          "F006",
+          "Wheat",
+          "Winter Red",
+          "90",
+          "Phosphate",
+          "85"
+        ],
+        [
+          "F007",
+          "Soybean",
+          "Liberty Link",
+          "100",
+          "Potash",
+          "65"
+        ],
+        [
+          "F008",
+          "Corn",
+          "Pioneer 5678",
+          "130",
+          "Nitrogen",
+          ""
+        ],
+        [
+          "F009",
+          "Rice",
+          "Basmati Premium",
+          "65",
+          "Nitrogen",
+          "110"
+        ],
+        [
+          "F010",
+          "Wheat",
+          "Spring Gold",
+          "80",
+          "Phosphate",
+          "75"
+        ],
+        [
+          "F011",
+          "Soybean",
+          "Roundup Ready",
+          "105",
+          "Potash",
+          "70"
+        ],
+        [
+          "F012",
+          "Corn",
+          "DeKalb 9012",
+          "125",
+          "Nitrogen",
+          "155"
+        ],
+        [
+          "F013",
+          "Rice",
+          "Carolina Gold",
+          "70",
+          "Nitrogen",
+          "115"
+        ],
+        [
+          "F014",
+          "Wheat",
+          "",
+          "95",
+          "Phosphate",
+          "80"
+        ],
+        [
+          "F015",
+          "Soybean",
+          "Liberty Link",
+          "88",
+          "Potash",
+          "62"
+        ],
+        [
+          "F016",
+          "Rice",
+          "Jasmine Long-Grain",
+          "72",
+          "Nitrogen",
+          "118"
+        ],
+        [
+          "F017",
+          "Corn",
+          "Pioneer 1234",
+          "115",
+          "Nitrogen",
+          "148"
+        ],
+        [
+          "F018",
+          "Wheat",
+          "Winter Red",
+          "92",
+          "Phosphate",
+          "82"
+        ]
+      ]
+    },
+    "questions": [
+      "How many farms are growing rice crops?",
+      "What is the total land area dedicated to Winter Red wheat cultivation?"
+    ],
+    "answers": [
+      "4",
+      "362.0"
+    ],
+    "origin_answers": [
+      "4",
+      "267"
+    ],
+    "ids": [
+      "nu-1193",
+      "nu-1194"
+    ],
+    "domain": "Agricultural Production",
+    "subdomain": "Agricultural input records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "5_2": {
+        "type": "Missing Value",
+        "original": "Rice"
+      },
+      "8_6": {
+        "type": "Missing Value",
+        "original": "150"
+      },
+      "14_3": {
+        "type": "Missing Value",
+        "original": "Winter Red"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:50:33.228133+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Agricultural Production-006",
+    "title": "Agricultural Product Sales Orders",
+    "table": {
+      "header": [
+        "Order_ID",
+        "Farm_Name",
+        "Crop_Type",
+        "Variety",
+        "Quantity_Tons",
+        "Price_Per_Ton"
+      ],
+      "rows": [
+        [
+          "ORD-2401",
+          "Green Valley Farm",
+          "Wheat",
+          "Winter Red",
+          "45",
+          "320"
+        ],
+        [
+          "ORD-2402",
+          "Sunrise Agriculture",
+          "Corn",
+          "Sweet Yellow",
+          "78",
+          "280"
+        ],
+        [
+          "ORD-2403",
+          "Mountain View Ranch",
+          "Rice",
+          "Jasmine Long-Grain",
+          "32",
+          "450"
+        ],
+        [
+          "ORD-2404",
+          "Prairie Fields Co",
+          "Wheat",
+          "",
+          "67",
+          "320"
+        ],
+        [
+          "ORD-2405",
+          "Golden Harvest Farm",
+          "Soybeans",
+          "Premium Variety",
+          "55",
+          "380"
+        ],
+        [
+          "ORD-2406",
+          "Riverside Agriculture",
+          "Corn",
+          "Field Dent",
+          "89",
+          "260"
+        ],
+        [
+          "ORD-2407",
+          "Blue Sky Farms",
+          "Rice",
+          "Basmati Premium",
+          "28",
+          "480"
+        ],
+        [
+          "ORD-2408",
+          "Cedar Creek Ranch",
+          "Wheat",
+          "Winter Red",
+          "52",
+          "320"
+        ],
+        [
+          "ORD-2409",
+          "Meadowbrook Farm",
+          "Soybeans",
+          "Premium Variety",
+          "41",
+          "380"
+        ],
+        [
+          "ORD-2410",
+          "Valley View Agriculture",
+          "",
+          "Jasmine Long-Grain",
+          "38",
+          "450"
+        ],
+        [
+          "ORD-2411",
+          "Sunset Farms",
+          "Corn",
+          "Sweet Yellow",
+          "63",
+          "280"
+        ],
+        [
+          "ORD-2412",
+          "Highland Ranch",
+          "Wheat",
+          "Winter Red",
+          "49",
+          "320"
+        ],
+        [
+          "ORD-2413",
+          "Clearwater Farm",
+          "Rice",
+          "Basmati Premium",
+          "35",
+          "480"
+        ],
+        [
+          "ORD-2414",
+          "Oak Grove Agriculture",
+          "Soybeans",
+          "Premium Variety",
+          "58",
+          "380"
+        ],
+        [
+          "ORD-2415",
+          "Rolling Hills Farm",
+          "Corn",
+          "Field Dent",
+          "72",
+          ""
+        ],
+        [
+          "ORD-2416",
+          "Lakeside Ranch",
+          "Wheat",
+          "Winter Red",
+          "44",
+          "320"
+        ],
+        [
+          "ORD-2417",
+          "Willow Creek Farm",
+          "Rice",
+          "Jasmine Long-Grain",
+          "29",
+          "450"
+        ],
+        [
+          "ORD-2418",
+          "Autumn Fields Co",
+          "Soybeans",
+          "Premium Variety",
+          "61",
+          "380"
+        ]
+      ]
+    },
+    "questions": [
+      "How many farms are selling Winter Red wheat variety?",
+      "What is the total quantity of rice orders in tons?",
+      "What is the average price per ton for corn orders?"
+    ],
+    "answers": [
+      "5",
+      "162.0",
+      "270.0"
+    ],
+    "origin_answers": [
+      "5",
+      "132",
+      "273.33"
+    ],
+    "ids": [
+      "nu-1195",
+      "nu-1196",
+      "nu-1197"
+    ],
+    "domain": "Agricultural Production",
+    "subdomain": "Agricultural product sales orders",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Variety": {
+        "type": "Missing Value",
+        "original": "Winter Red"
+      },
+      "10_Crop_Type": {
+        "type": "Missing Value",
+        "original": "Rice"
+      },
+      "15_Price_Per_Ton": {
+        "type": "Missing Value",
+        "original": "260"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:51:03.431688+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Agricultural Production-008",
+    "title": "Farm Production Input-Output Data 2024",
+    "table": {
+      "header": [
+        "Farm_ID",
+        "Crop_Type",
+        "Seed_Variety",
+        "Land_Area_Acres",
+        "Expected_Yield_Tons",
+        "Irrigation_Type"
+      ],
+      "rows": [
+        [
+          "F001",
+          "Wheat",
+          "Winter Red",
+          "45",
+          "12.5",
+          "Drip"
+        ],
+        [
+          "F002",
+          "Corn",
+          "Sweet Golden",
+          "38",
+          "18.2",
+          "Sprinkler"
+        ],
+        [
+          "F003",
+          "Rice",
+          "Jasmine Long-Grain",
+          "52",
+          "22.8",
+          "Flood"
+        ],
+        [
+          "F004",
+          "Wheat",
+          "",
+          "41",
+          "11.8",
+          "Drip"
+        ],
+        [
+          "F005",
+          "Soybean",
+          "Premium Variety",
+          "33",
+          "8.4",
+          "Rain-fed"
+        ],
+        [
+          "F006",
+          "Corn",
+          "Field Dent",
+          "47",
+          "19.6",
+          "Pivot"
+        ],
+        [
+          "F007",
+          "Rice",
+          "Basmati Premium",
+          "39",
+          "20.1",
+          "Flood"
+        ],
+        [
+          "F008",
+          "Wheat",
+          "Winter Red",
+          "44",
+          "12.2",
+          "Sprinkler"
+        ],
+        [
+          "F009",
+          "",
+          "Jasmine Long-Grain",
+          "48",
+          "23.5",
+          "Flood"
+        ],
+        [
+          "F010",
+          "Soybean",
+          "Premium Variety",
+          "29",
+          "7.8",
+          "Rain-fed"
+        ],
+        [
+          "F011",
+          "Corn",
+          "Sweet Golden",
+          "42",
+          "17.9",
+          "Drip"
+        ],
+        [
+          "F012",
+          "Wheat",
+          "Winter Red",
+          "36",
+          "10.4",
+          "Sprinkler"
+        ],
+        [
+          "F013",
+          "Rice",
+          "Basmati Premium",
+          "51",
+          "21.7",
+          "Flood"
+        ],
+        [
+          "F014",
+          "Soybean",
+          "Premium Variety",
+          "31",
+          "",
+          "Rain-fed"
+        ],
+        [
+          "F015",
+          "Corn",
+          "Field Dent",
+          "40",
+          "18.8",
+          "Pivot"
+        ],
+        [
+          "F016",
+          "Wheat",
+          "Winter Red",
+          "43",
+          "11.9",
+          "Drip"
+        ],
+        [
+          "F017",
+          "Rice",
+          "Jasmine Long-Grain",
+          "46",
+          "22.3",
+          "Flood"
+        ],
+        [
+          "F018",
+          "Soybean",
+          "Premium Variety",
+          "35",
+          "9.1",
+          "Rain-fed"
+        ]
+      ]
+    },
+    "questions": [
+      "How many farms are growing Winter Red wheat variety?",
+      "What is the total expected yield for all rice farms?"
+    ],
+    "answers": [
+      "5",
+      "110.0"
+    ],
+    "origin_answers": [
+      "5",
+      "89.4"
+    ],
+    "ids": [
+      "nu-1198",
+      "nu-1199"
+    ],
+    "domain": "Agricultural Production",
+    "subdomain": "Farmer production input-output tables",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Seed_Variety": {
+        "type": "Missing Value",
+        "original": "Winter Red"
+      },
+      "9_Crop_Type": {
+        "type": "Missing Value",
+        "original": "Rice"
+      },
+      "14_Expected_Yield_Tons": {
+        "type": "Missing Value",
+        "original": "8.2"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:51:36.456018+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Agricultural Production-010",
+    "title": "Rural Water & Electricity Usage by Farm",
+    "table": {
+      "header": [
+        "Farm_ID",
+        "Region",
+        "Water_Source",
+        "Monthly_Water_Usage_m3",
+        "Electricity_Usage_kWh",
+        "Crop_Type"
+      ],
+      "rows": [
+        [
+          "F001",
+          "North Valley",
+          "Groundwater",
+          "450",
+          "2800",
+          "Wheat"
+        ],
+        [
+          "F002",
+          "South Plains",
+          "River",
+          "380",
+          "2200",
+          "Corn"
+        ],
+        [
+          "F003",
+          "East Ridge",
+          "Groundwater",
+          "520",
+          "3100",
+          "Rice"
+        ],
+        [
+          "F004",
+          "North Valley",
+          "",
+          "410",
+          "2600",
+          "Wheat"
+        ],
+        [
+          "F005",
+          "West Hills",
+          "Canal",
+          "290",
+          "1800",
+          "Vegetables"
+        ],
+        [
+          "F006",
+          "South Plains",
+          "River",
+          "340",
+          "2100",
+          "Soybeans"
+        ],
+        [
+          "F007",
+          "East Ridge",
+          "Groundwater",
+          "480",
+          "2900",
+          "Rice"
+        ],
+        [
+          "F008",
+          "North Valley",
+          "Groundwater",
+          "425",
+          "2750",
+          "Wheat"
+        ],
+        [
+          "F009",
+          "West Hills",
+          "Canal",
+          "315",
+          "1950",
+          "Vegetables"
+        ],
+        [
+          "F010",
+          "South Plains",
+          "River",
+          "365",
+          "2250",
+          "Corn"
+        ],
+        [
+          "F011",
+          "East Ridge",
+          "Groundwater",
+          "505",
+          "",
+          "Rice"
+        ],
+        [
+          "F012",
+          "North Valley",
+          "Groundwater",
+          "440",
+          "2700",
+          "Wheat"
+        ],
+        [
+          "F013",
+          "West Hills",
+          "Canal",
+          "280",
+          "1750",
+          "Vegetables"
+        ],
+        [
+          "F014",
+          "South Plains",
+          "River",
+          "355",
+          "2180",
+          "Soybeans"
+        ],
+        [
+          "F015",
+          "East Ridge",
+          "Groundwater",
+          "490",
+          "2950",
+          ""
+        ],
+        [
+          "F016",
+          "North Valley",
+          "Groundwater",
+          "435",
+          "2680",
+          "Wheat"
+        ],
+        [
+          "F017",
+          "West Hills",
+          "Canal",
+          "305",
+          "1900",
+          "Vegetables"
+        ],
+        [
+          "F018",
+          "South Plains",
+          "River",
+          "370",
+          "2300",
+          "Corn"
+        ]
+      ]
+    },
+    "questions": [
+      "How many farms in North Valley use groundwater as their water source?",
+      "What is the total monthly water usage of all rice farms?"
+    ],
+    "answers": [
+      "5.0",
+      "1995.0"
+    ],
+    "origin_answers": [
+      "4",
+      "1515"
+    ],
+    "ids": [
+      "nu-1200",
+      "nu-1201"
+    ],
+    "domain": "Agricultural Production",
+    "subdomain": "Rural water & electricity usage data",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Water_Source": {
+        "type": "Missing Value",
+        "original": "Groundwater"
+      },
+      "11_Electricity_Usage_kWh": {
+        "type": "Missing Value",
+        "original": "3050"
+      },
+      "15_Crop_Type": {
+        "type": "Missing Value",
+        "original": "Rice"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:52:06.080470+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Competitive Sports-001",
+    "title": "International Swimming Championship Results",
+    "table": {
+      "header": [
+        "Athlete",
+        "Country",
+        "Event",
+        "Score",
+        "Rank",
+        "Medal"
+      ],
+      "rows": [
+        [
+          "Sarah Johnson",
+          "USA",
+          "100m Freestyle",
+          "52.34",
+          "1",
+          "Gold"
+        ],
+        [
+          "Liu Wei",
+          "China",
+          "100m Freestyle",
+          "52.67",
+          "2",
+          "Silver"
+        ],
+        [
+          "Emma Thompson",
+          "Australia",
+          "100m Freestyle",
+          "52.89",
+          "3",
+          "Bronze"
+        ],
+        [
+          "Maria Garcia",
+          "Spain",
+          "200m Butterfly",
+          "2:08.45",
+          "1",
+          "Gold"
+        ],
+        [
+          "Yuki Tanaka",
+          "Japan",
+          "",
+          "2:09.12",
+          "2",
+          "Silver"
+        ],
+        [
+          "Sophie Martin",
+          "France",
+          "200m Butterfly",
+          "2:09.78",
+          "3",
+          "Bronze"
+        ],
+        [
+          "Michael Chen",
+          "Canada",
+          "50m Backstroke",
+          "24.56",
+          "1",
+          "Gold"
+        ],
+        [
+          "Alex Petrov",
+          "Russia",
+          "50m Backstroke",
+          "24.89",
+          "2",
+          "Silver"
+        ],
+        [
+          "James Wilson",
+          "UK",
+          "50m Backstroke",
+          "25.12",
+          "3",
+          "Bronze"
+        ],
+        [
+          "Anna Kowalski",
+          "Poland",
+          "400m Individual Medley",
+          "4:32.67",
+          "1",
+          "Gold"
+        ],
+        [
+          "Isabella Rodriguez",
+          "",
+          "400m Individual Medley",
+          "4:34.21",
+          "2",
+          "Silver"
+        ],
+        [
+          "Katie O'Brien",
+          "Ireland",
+          "400m Individual Medley",
+          "4:35.89",
+          "3",
+          "Bronze"
+        ],
+        [
+          "David Kim",
+          "South Korea",
+          "1500m Freestyle",
+          "14:58.23",
+          "1",
+          "Gold"
+        ],
+        [
+          "Thomas Mueller",
+          "Germany",
+          "1500m Freestyle",
+          "15:02.45",
+          "2",
+          "Silver"
+        ],
+        [
+          "Roberto Silva",
+          "Brazil",
+          "1500m Freestyle",
+          "",
+          "3",
+          "Bronze"
+        ],
+        [
+          "Nina Petersen",
+          "Denmark",
+          "200m Breaststroke",
+          "2:22.34",
+          "1",
+          "Gold"
+        ],
+        [
+          "Olga Volkov",
+          "Ukraine",
+          "200m Breaststroke",
+          "2:23.78",
+          "2",
+          "Silver"
+        ],
+        [
+          "Rachel Green",
+          "New Zealand",
+          "200m Breaststroke",
+          "2:24.56",
+          "3",
+          "Bronze"
+        ]
+      ]
+    },
+    "questions": [
+      "How many athletes won medals in butterfly events?"
+    ],
+    "answers": [
+      "3"
+    ],
+    "origin_answers": [
+      "3"
+    ],
+    "ids": [
+      "nu-1202"
+    ],
+    "domain": "Competitive Sports",
+    "subdomain": "Competition results",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "5_3": {
+        "type": "Missing Value",
+        "original": "200m Butterfly"
+      },
+      "11_2": {
+        "type": "Missing Value",
+        "original": "Mexico"
+      },
+      "15_4": {
+        "type": "Missing Value",
+        "original": "15:04.12"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:47:06.551509+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Competitive Sports-005",
+    "title": "Thunder Hawks Season Schedule",
+    "table": {
+      "header": [
+        "Team",
+        "Match Date",
+        "Opponent",
+        "Venue",
+        "Result",
+        "Score"
+      ],
+      "rows": [
+        [
+          "Thunder Hawks",
+          "2024-03-15",
+          "Storm Eagles",
+          "Home",
+          "Win",
+          "3-1"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-03-22",
+          "Fire Dragons",
+          "Away",
+          "Loss",
+          "1-2"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-03-29",
+          "Ice Wolves",
+          "Home",
+          "Win",
+          "2-0"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-04-05",
+          "Lightning Bolts",
+          "",
+          "Win",
+          "4-2"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-04-12",
+          "Storm Eagles",
+          "Away",
+          "Draw",
+          "2-2"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-04-19",
+          "Fire Dragons",
+          "Home",
+          "Win",
+          "3-0"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-04-26",
+          "Ice Wolves",
+          "Away",
+          "Loss",
+          "0-1"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-05-03",
+          "Lightning Bolts",
+          "Home",
+          "Win",
+          "2-1"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-05-10",
+          "Storm Eagles",
+          "Away",
+          "",
+          "1-3"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-05-17",
+          "Fire Dragons",
+          "Away",
+          "Win",
+          "2-0"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-05-24",
+          "Ice Wolves",
+          "Home",
+          "Draw",
+          "1-1"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-05-31",
+          "Lightning Bolts",
+          "Away",
+          "Win",
+          "3-2"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-06-07",
+          "Storm Eagles",
+          "Home",
+          "Win",
+          "4-1"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-06-14",
+          "",
+          "Away",
+          "Loss",
+          "0-2"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-06-21",
+          "Ice Wolves",
+          "Away",
+          "Win",
+          "2-1"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-06-28",
+          "Lightning Bolts",
+          "Home",
+          "Draw",
+          "2-2"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-07-05",
+          "Storm Eagles",
+          "Away",
+          "Win",
+          "1-0"
+        ],
+        [
+          "Thunder Hawks",
+          "2024-07-12",
+          "Fire Dragons",
+          "Home",
+          "Win",
+          "3-1"
+        ]
+      ]
+    },
+    "questions": [
+      "How many away losses did Thunder Hawks have this season?"
+    ],
+    "answers": [
+      "4.0"
+    ],
+    "origin_answers": [
+      "3"
+    ],
+    "ids": [
+      "nu-1203"
+    ],
+    "domain": "Competitive Sports",
+    "subdomain": "Team match schedules",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_4": {
+        "type": "Missing Value",
+        "original": "Home"
+      },
+      "9_5": {
+        "type": "Missing Value",
+        "original": "Loss"
+      },
+      "14_3": {
+        "type": "Missing Value",
+        "original": "Fire Dragons"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:48:09.522943+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Competitive Sports-007",
+    "title": "Game Performance Analysis Data",
+    "table": {
+      "header": [
+        "Player_ID",
+        "Game_Type",
+        "Match_Duration",
+        "Score_Differential",
+        "Performance_Rating",
+        "Team_Code"
+      ],
+      "rows": [
+        [
+          "P001",
+          "Basketball",
+          "48",
+          "+12",
+          "8.5",
+          "LAK"
+        ],
+        [
+          "P002",
+          "Basketball",
+          "48",
+          "-8",
+          "6.2",
+          "BOS"
+        ],
+        [
+          "P003",
+          "Soccer",
+          "90",
+          "+2",
+          "7.8",
+          "MAN"
+        ],
+        [
+          "P004",
+          "Soccer",
+          "",
+          "+1",
+          "7.2",
+          "CHE"
+        ],
+        [
+          "P005",
+          "Tennis",
+          "180",
+          "+15",
+          "9.1",
+          "IND"
+        ],
+        [
+          "P006",
+          "Tennis",
+          "120",
+          "-5",
+          "5.8",
+          "IND"
+        ],
+        [
+          "P007",
+          "Basketball",
+          "48",
+          "+18",
+          "9.3",
+          "LAK"
+        ],
+        [
+          "P008",
+          "",
+          "90",
+          "-3",
+          "6.5",
+          "ARS"
+        ],
+        [
+          "P009",
+          "Soccer",
+          "90",
+          "+4",
+          "8.2",
+          "MAN"
+        ],
+        [
+          "P010",
+          "Basketball",
+          "48",
+          "-12",
+          "5.5",
+          "BOS"
+        ],
+        [
+          "P011",
+          "Tennis",
+          "150",
+          "+8",
+          "8.0",
+          "IND"
+        ],
+        [
+          "P012",
+          "Soccer",
+          "90",
+          "+6",
+          "8.7",
+          "CHE"
+        ],
+        [
+          "P013",
+          "Basketball",
+          "48",
+          "+5",
+          "",
+          "LAK"
+        ],
+        [
+          "P014",
+          "Tennis",
+          "135",
+          "-2",
+          "6.8",
+          "IND"
+        ],
+        [
+          "P015",
+          "Soccer",
+          "90",
+          "-1",
+          "7.0",
+          "ARS"
+        ],
+        [
+          "P016",
+          "Basketball",
+          "48",
+          "+22",
+          "9.8",
+          "BOS"
+        ],
+        [
+          "P017",
+          "Tennis",
+          "165",
+          "+12",
+          "8.9",
+          "IND"
+        ],
+        [
+          "P018",
+          "Soccer",
+          "90",
+          "+8",
+          "8.4",
+          "MAN"
+        ]
+      ]
+    },
+    "questions": [
+      "How many soccer matches had a positive score differential?",
+      "How many Tennis matches lasted longer than 140 minutes?"
+    ],
+    "answers": [
+      "5",
+      "3"
+    ],
+    "origin_answers": [
+      "5",
+      "3"
+    ],
+    "ids": [
+      "nu-1204",
+      "nu-1205"
+    ],
+    "domain": "Competitive Sports",
+    "subdomain": "Game video analysis tag data",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Match_Duration": {
+        "type": "Missing Value",
+        "original": "90"
+      },
+      "8_Game_Type": {
+        "type": "Missing Value",
+        "original": "Soccer"
+      },
+      "13_Performance_Rating": {
+        "type": "Missing Value",
+        "original": "7.4"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:48:41.579370+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Competitive Sports-009",
+    "title": "Sports Event Ticket Purchase Records",
+    "table": {
+      "header": [
+        "Event_Name",
+        "Ticket_Type",
+        "Price_USD",
+        "Purchase_Date",
+        "Venue",
+        "Quantity"
+      ],
+      "rows": [
+        [
+          "NBA Finals Game 1",
+          "VIP",
+          "450",
+          "2024-06-01",
+          "Chase Center",
+          "2"
+        ],
+        [
+          "World Cup Final",
+          "Premium",
+          "380",
+          "2024-07-14",
+          "MetLife Stadium",
+          "4"
+        ],
+        [
+          "Super Bowl LVIII",
+          "General",
+          "220",
+          "2024-02-11",
+          "Allegiant Stadium",
+          "3"
+        ],
+        [
+          "NBA Finals Game 2",
+          "",
+          "450",
+          "2024-06-03",
+          "Chase Center",
+          "1"
+        ],
+        [
+          "Tennis Open Final",
+          "VIP",
+          "320",
+          "2024-09-08",
+          "Arthur Ashe Stadium",
+          "2"
+        ],
+        [
+          "World Cup Semifinal",
+          "Premium",
+          "280",
+          "2024-07-10",
+          "MetLife Stadium",
+          "6"
+        ],
+        [
+          "NBA Finals Game 3",
+          "VIP",
+          "450",
+          "2024-06-05",
+          "TD Garden",
+          "2"
+        ],
+        [
+          "Olympics Opening",
+          "General",
+          "150",
+          "2024-07-26",
+          "Stade de France",
+          "8"
+        ],
+        [
+          "Super Bowl LVIII",
+          "Premium",
+          "",
+          "2024-02-11",
+          "Allegiant Stadium",
+          "2"
+        ],
+        [
+          "Tennis Open Semifinal",
+          "General",
+          "180",
+          "2024-09-06",
+          "Arthur Ashe Stadium",
+          "4"
+        ],
+        [
+          "World Cup Final",
+          "VIP",
+          "650",
+          "2024-07-14",
+          "",
+          "1"
+        ],
+        [
+          "NBA Finals Game 4",
+          "General",
+          "280",
+          "2024-06-07",
+          "TD Garden",
+          "5"
+        ],
+        [
+          "Olympics Swimming Final",
+          "Premium",
+          "200",
+          "2024-07-30",
+          "La Defense Arena",
+          "3"
+        ],
+        [
+          "Tennis Open Final",
+          "Premium",
+          "250",
+          "2024-09-08",
+          "Arthur Ashe Stadium",
+          "1"
+        ],
+        [
+          "World Cup Quarterfinal",
+          "General",
+          "180",
+          "2024-07-06",
+          "MetLife Stadium",
+          "10"
+        ],
+        [
+          "NBA Finals Game 5",
+          "VIP",
+          "450",
+          "2024-06-09",
+          "Chase Center",
+          "3"
+        ],
+        [
+          "Super Bowl LVIII",
+          "VIP",
+          "850",
+          "2024-02-11",
+          "Allegiant Stadium",
+          "1"
+        ],
+        [
+          "Olympics Closing",
+          "General",
+          "120",
+          "2024-08-11",
+          "Stade de France",
+          "12"
+        ]
+      ]
+    },
+    "questions": [
+      "How many VIP tickets were purchased for NBA Finals games?",
+      "What is the total quantity of tickets purchased for events at MetLife Stadium?"
+    ],
+    "answers": [
+      "8.0",
+      "21"
+    ],
+    "origin_answers": [
+      "7",
+      "21"
+    ],
+    "ids": [
+      "nu-1206",
+      "nu-1207"
+    ],
+    "domain": "Competitive Sports",
+    "subdomain": "Sports event ticket purchase records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Ticket_Type": {
+        "type": "Missing Value",
+        "original": "VIP"
+      },
+      "9_Price_USD": {
+        "type": "Missing Value",
+        "original": "320"
+      },
+      "11_Venue": {
+        "type": "Missing Value",
+        "original": "MetLife Stadium"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:49:12.525589+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Competitive Sports-010",
+    "title": "Sports Equipment Usage Log",
+    "table": {
+      "header": [
+        "Equipment_ID",
+        "Equipment_Type",
+        "Sport",
+        "Usage_Hours",
+        "Maintenance_Status",
+        "Last_Service_Date"
+      ],
+      "rows": [
+        [
+          "EQ001",
+          "Tennis Racket",
+          "Tennis",
+          "45",
+          "Good",
+          "2024-01-15"
+        ],
+        [
+          "EQ002",
+          "Basketball",
+          "Basketball",
+          "120",
+          "Excellent",
+          "2024-02-10"
+        ],
+        [
+          "EQ003",
+          "Soccer Ball",
+          "Soccer",
+          "89",
+          "Fair",
+          "2024-01-28"
+        ],
+        [
+          "EQ004",
+          "Tennis Racket",
+          "",
+          "67",
+          "Good",
+          "2024-02-05"
+        ],
+        [
+          "EQ005",
+          "Volleyball",
+          "Volleyball",
+          "34",
+          "Excellent",
+          "2024-02-20"
+        ],
+        [
+          "EQ006",
+          "Basketball",
+          "Basketball",
+          "156",
+          "Fair",
+          "2024-01-12"
+        ],
+        [
+          "EQ007",
+          "Soccer Ball",
+          "Soccer",
+          "78",
+          "Good",
+          "2024-02-18"
+        ],
+        [
+          "EQ008",
+          "Tennis Racket",
+          "Tennis",
+          "92",
+          "Fair",
+          "2024-01-30"
+        ],
+        [
+          "EQ009",
+          "Volleyball",
+          "Volleyball",
+          "23",
+          "Excellent",
+          "2024-02-25"
+        ],
+        [
+          "EQ010",
+          "Basketball",
+          "Basketball",
+          "",
+          "Good",
+          "2024-02-08"
+        ],
+        [
+          "EQ011",
+          "Soccer Ball",
+          "Soccer",
+          "103",
+          "Fair",
+          "2024-01-22"
+        ],
+        [
+          "EQ012",
+          "Tennis Racket",
+          "Tennis",
+          "58",
+          "Good",
+          "2024-02-12"
+        ],
+        [
+          "EQ013",
+          "Volleyball",
+          "Volleyball",
+          "41",
+          "Excellent",
+          "2024-02-28"
+        ],
+        [
+          "EQ014",
+          "Basketball",
+          "Basketball",
+          "87",
+          "Fair",
+          "2024-01-18"
+        ],
+        [
+          "EQ015",
+          "Soccer Ball",
+          "Soccer",
+          "65",
+          "Good",
+          "2024-02-15"
+        ],
+        [
+          "EQ016",
+          "Tennis Racket",
+          "Tennis",
+          "74",
+          "",
+          "2024-02-22"
+        ],
+        [
+          "EQ017",
+          "Volleyball",
+          "Volleyball",
+          "29",
+          "Excellent",
+          "2024-03-01"
+        ],
+        [
+          "EQ018",
+          "Basketball",
+          "Basketball",
+          "134",
+          "Fair",
+          "2024-01-25"
+        ]
+      ]
+    },
+    "questions": [
+      "How many tennis equipment items are currently in use?"
+    ],
+    "answers": [
+      "5.0"
+    ],
+    "origin_answers": [
+      "4"
+    ],
+    "ids": [
+      "nu-1208"
+    ],
+    "domain": "Competitive Sports",
+    "subdomain": "Sports equipment usage logs",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Sport": {
+        "type": "Missing Value",
+        "original": "Tennis"
+      },
+      "10_Usage_Hours": {
+        "type": "Missing Value",
+        "original": "100"
+      },
+      "16_Maintenance_Status": {
+        "type": "Missing Value",
+        "original": "Good"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:49:28.142729+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Cultural Entertainment-002",
+    "title": "Event Ticket Sales Data",
+    "table": {
+      "header": [
+        "Event_ID",
+        "Event_Name",
+        "Venue_Type",
+        "Ticket_Price",
+        "Tickets_Sold",
+        "Revenue"
+      ],
+      "rows": [
+        [
+          "E001",
+          "Rock Concert Alpha",
+          "Arena",
+          "75",
+          "12500",
+          "937500"
+        ],
+        [
+          "E002",
+          "Jazz Night Blues",
+          "Club",
+          "45",
+          "800",
+          "36000"
+        ],
+        [
+          "E003",
+          "Classical Symphony",
+          "Theater",
+          "90",
+          "1200",
+          "108000"
+        ],
+        [
+          "E004",
+          "Pop Festival Main",
+          "",
+          "65",
+          "8500",
+          "552500"
+        ],
+        [
+          "E005",
+          "Comedy Show Live",
+          "Club",
+          "35",
+          "600",
+          "21000"
+        ],
+        [
+          "E006",
+          "Rock Concert Beta",
+          "Arena",
+          "80",
+          "11000",
+          "880000"
+        ],
+        [
+          "E007",
+          "Opera Gala Night",
+          "Theater",
+          "120",
+          "900",
+          "108000"
+        ],
+        [
+          "E008",
+          "Electronic Dance",
+          "Arena",
+          "55",
+          "",
+          "385000"
+        ],
+        [
+          "E009",
+          "Folk Music Fest",
+          "Theater",
+          "50",
+          "1800",
+          "90000"
+        ],
+        [
+          "E010",
+          "Hip Hop Battle",
+          "Club",
+          "40",
+          "1500",
+          "60000"
+        ],
+        [
+          "E011",
+          "Rock Concert Gamma",
+          "Arena",
+          "75",
+          "13200",
+          "990000"
+        ],
+        [
+          "E012",
+          "Jazz Fusion Night",
+          "Club",
+          "45",
+          "750",
+          "33750"
+        ],
+        [
+          "E013",
+          "Musical Theater",
+          "Theater",
+          "85",
+          "2200",
+          "187000"
+        ],
+        [
+          "E014",
+          "Pop Concert Delta",
+          "Arena",
+          "70",
+          "9800",
+          "686000"
+        ],
+        [
+          "E015",
+          "Comedy Improv",
+          "Club",
+          "",
+          "900",
+          "31500"
+        ],
+        [
+          "E016",
+          "Classical Quartet",
+          "Theater",
+          "95",
+          "1100",
+          "104500"
+        ],
+        [
+          "E017",
+          "Rock Festival End",
+          "Arena",
+          "80",
+          "14500",
+          "1160000"
+        ],
+        [
+          "E018",
+          "Acoustic Session",
+          "Club",
+          "30",
+          "400",
+          "12000"
+        ]
+      ]
+    },
+    "questions": [
+      "How many events priced above $60 per ticket were held?"
+    ],
+    "answers": [
+      "10.0"
+    ],
+    "origin_answers": [
+      "9"
+    ],
+    "ids": [
+      "nu-1209"
+    ],
+    "domain": "Cultural Entertainment",
+    "subdomain": "Event ticket sales data",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Venue_Type": {
+        "type": "Missing Value",
+        "original": "Arena"
+      },
+      "8_Tickets_Sold": {
+        "type": "Missing Value",
+        "original": "7000"
+      },
+      "15_Ticket_Price": {
+        "type": "Missing Value",
+        "original": "35"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:44:30.356691+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Cultural Entertainment-005",
+    "title": "Cultural Entertainment Audience Feedback Survey Results",
+    "table": {
+      "header": [
+        "Event_ID",
+        "Event_Type",
+        "Venue_Category",
+        "Satisfaction_Rating",
+        "Recommendation_Score",
+        "Age_Group"
+      ],
+      "rows": [
+        [
+          "E001",
+          "Concert",
+          "Arena",
+          "4.2",
+          "8.5",
+          "25-34"
+        ],
+        [
+          "E002",
+          "Theater",
+          "Playhouse",
+          "4.7",
+          "9.1",
+          "35-44"
+        ],
+        [
+          "E003",
+          "Comedy Show",
+          "Club",
+          "3.8",
+          "7.2",
+          "18-24"
+        ],
+        [
+          "E004",
+          "Concert",
+          "Arena",
+          "4.5",
+          "8.8",
+          "25-34"
+        ],
+        [
+          "E005",
+          "Museum Exhibition",
+          "Gallery",
+          "4.1",
+          "7.9",
+          "45-54"
+        ],
+        [
+          "E006",
+          "Concert",
+          "",
+          "4.3",
+          "8.6",
+          "25-34"
+        ],
+        [
+          "E007",
+          "Theater",
+          "Playhouse",
+          "4.8",
+          "9.3",
+          "35-44"
+        ],
+        [
+          "E008",
+          "Comedy Show",
+          "Club",
+          "3.9",
+          "7.4",
+          "18-24"
+        ],
+        [
+          "E009",
+          "Concert",
+          "Arena",
+          "4.4",
+          "8.7",
+          "25-34"
+        ],
+        [
+          "E010",
+          "Museum Exhibition",
+          "Gallery",
+          "4.0",
+          "7.8",
+          "45-54"
+        ],
+        [
+          "E011",
+          "Theater",
+          "Playhouse",
+          "4.6",
+          "9.0",
+          "35-44"
+        ],
+        [
+          "E012",
+          "",
+          "Club",
+          "3.7",
+          "7.1",
+          "18-24"
+        ],
+        [
+          "E013",
+          "Concert",
+          "Arena",
+          "4.1",
+          "8.3",
+          "25-34"
+        ],
+        [
+          "E014",
+          "Museum Exhibition",
+          "Gallery",
+          "4.2",
+          "8.0",
+          "45-54"
+        ],
+        [
+          "E015",
+          "Theater",
+          "Playhouse",
+          "4.9",
+          "9.4",
+          "35-44"
+        ],
+        [
+          "E016",
+          "Concert",
+          "Arena",
+          "4.6",
+          "8.9",
+          "25-34"
+        ],
+        [
+          "E017",
+          "Comedy Show",
+          "Club",
+          "3.6",
+          "",
+          "18-24"
+        ],
+        [
+          "E018",
+          "Museum Exhibition",
+          "Gallery",
+          "4.3",
+          "8.1",
+          "45-54"
+        ]
+      ]
+    },
+    "questions": [
+      "How many different event types are represented in the survey data?"
+    ],
+    "answers": [
+      "4"
+    ],
+    "origin_answers": [
+      "4"
+    ],
+    "ids": [
+      "nu-1210"
+    ],
+    "domain": "Cultural Entertainment",
+    "subdomain": "Audience feedback surveys",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "6_Venue_Category": {
+        "type": "Missing Value",
+        "original": "Arena"
+      },
+      "12_Event_Type": {
+        "type": "Missing Value",
+        "original": "Comedy Show"
+      },
+      "17_Recommendation_Score": {
+        "type": "Missing Value",
+        "original": "7.0"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:45:17.948498+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Education Courses-001",
+    "title": "Student Course Transcripts",
+    "table": {
+      "header": [
+        "Student_ID",
+        "Course_Code",
+        "Course_Name",
+        "Credits",
+        "Grade",
+        "Semester"
+      ],
+      "rows": [
+        [
+          "STU001",
+          "MATH101",
+          "Calculus I",
+          "4",
+          "A",
+          "Fall 2023"
+        ],
+        [
+          "STU002",
+          "PHYS201",
+          "Physics II",
+          "3",
+          "B+",
+          "Fall 2023"
+        ],
+        [
+          "STU003",
+          "CHEM150",
+          "General Chemistry",
+          "4",
+          "A-",
+          "Fall 2023"
+        ],
+        [
+          "STU004",
+          "MATH101",
+          "Calculus I",
+          "",
+          "B",
+          "Fall 2023"
+        ],
+        [
+          "STU005",
+          "ENGL102",
+          "Composition II",
+          "3",
+          "A",
+          "Spring 2024"
+        ],
+        [
+          "STU006",
+          "HIST210",
+          "World History",
+          "3",
+          "B+",
+          "Spring 2024"
+        ],
+        [
+          "STU007",
+          "BIOL101",
+          "Biology I",
+          "4",
+          "A-",
+          "Spring 2024"
+        ],
+        [
+          "STU008",
+          "MATH102",
+          "Calculus II",
+          "4",
+          "B+",
+          "Spring 2024"
+        ],
+        [
+          "STU009",
+          "PHYS201",
+          "Physics II",
+          "3",
+          "A",
+          "Spring 2024"
+        ],
+        [
+          "STU010",
+          "CHEM150",
+          "",
+          "4",
+          "B",
+          "Fall 2023"
+        ],
+        [
+          "STU011",
+          "ENGL101",
+          "Composition I",
+          "3",
+          "A-",
+          "Fall 2023"
+        ],
+        [
+          "STU012",
+          "MATH101",
+          "Calculus I",
+          "4",
+          "B-",
+          "Spring 2024"
+        ],
+        [
+          "STU013",
+          "BIOL102",
+          "Biology II",
+          "4",
+          "A",
+          "Spring 2024"
+        ],
+        [
+          "STU014",
+          "HIST210",
+          "World History",
+          "3",
+          "B+",
+          "Fall 2023"
+        ],
+        [
+          "STU015",
+          "PHYS101",
+          "Physics I",
+          "3",
+          "",
+          "Fall 2023"
+        ],
+        [
+          "STU016",
+          "MATH102",
+          "Calculus II",
+          "4",
+          "A-",
+          "Spring 2024"
+        ],
+        [
+          "STU017",
+          "ENGL102",
+          "Composition II",
+          "3",
+          "B",
+          "Spring 2024"
+        ],
+        [
+          "STU018",
+          "CHEM151",
+          "Organic Chemistry",
+          "4",
+          "A",
+          "Spring 2024"
+        ]
+      ]
+    },
+    "questions": [
+      "How many students received an A grade in 4-credit courses?",
+      "What is the total number of credits completed by students taking General Chemistry?"
+    ],
+    "answers": [
+      "3.0",
+      "8"
+    ],
+    "origin_answers": [
+      "4",
+      "8"
+    ],
+    "ids": [
+      "nu-1211",
+      "nu-1212"
+    ],
+    "domain": "Education Courses",
+    "subdomain": "Student transcripts",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Credits": {
+        "type": "Missing Value",
+        "original": "4"
+      },
+      "10_Course_Name": {
+        "type": "Missing Value",
+        "original": "General Chemistry"
+      },
+      "15_Grade": {
+        "type": "Missing Value",
+        "original": "B+"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:26:12.019931+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Education Courses-005",
+    "title": "Final Exam Results and Answer Sheet Structure",
+    "table": {
+      "header": [
+        "Student_ID",
+        "Exam_Code",
+        "Subject",
+        "Score",
+        "Grade",
+        "Duration_Minutes"
+      ],
+      "rows": [
+        [
+          "STU001",
+          "MATH101",
+          "Mathematics",
+          "85",
+          "B",
+          "120"
+        ],
+        [
+          "STU002",
+          "ENG102",
+          "English Literature",
+          "92",
+          "A",
+          "180"
+        ],
+        [
+          "STU003",
+          "PHYS103",
+          "Physics",
+          "78",
+          "C",
+          "150"
+        ],
+        [
+          "STU004",
+          "CHEM104",
+          "Chemistry",
+          "88",
+          "B",
+          "135"
+        ],
+        [
+          "STU005",
+          "MATH101",
+          "Mathematics",
+          "95",
+          "A",
+          "120"
+        ],
+        [
+          "STU006",
+          "BIO105",
+          "Biology",
+          "82",
+          "B",
+          "160"
+        ],
+        [
+          "STU007",
+          "ENG102",
+          "",
+          "89",
+          "B",
+          "180"
+        ],
+        [
+          "STU008",
+          "HIST106",
+          "History",
+          "91",
+          "A",
+          "140"
+        ],
+        [
+          "STU009",
+          "PHYS103",
+          "Physics",
+          "76",
+          "C",
+          "150"
+        ],
+        [
+          "STU010",
+          "MATH101",
+          "Mathematics",
+          "93",
+          "A",
+          "120"
+        ],
+        [
+          "STU011",
+          "CHEM104",
+          "Chemistry",
+          "84",
+          "B",
+          "135"
+        ],
+        [
+          "STU012",
+          "BIO105",
+          "Biology",
+          "87",
+          "B",
+          ""
+        ],
+        [
+          "STU013",
+          "ENG102",
+          "English Literature",
+          "90",
+          "A",
+          "180"
+        ],
+        [
+          "STU014",
+          "HIST106",
+          "History",
+          "79",
+          "C",
+          "140"
+        ],
+        [
+          "STU015",
+          "PHYS103",
+          "Physics",
+          "86",
+          "B",
+          "150"
+        ],
+        [
+          "STU016",
+          "MATH101",
+          "Mathematics",
+          "97",
+          "A",
+          "120"
+        ],
+        [
+          "STU017",
+          "CHEM104",
+          "Chemistry",
+          "83",
+          "B",
+          "135"
+        ],
+        [
+          "STU018",
+          "BIO105",
+          "Biology",
+          "94",
+          "A",
+          "160"
+        ]
+      ]
+    },
+    "questions": [
+      "How many students took English Literature exams?",
+      "What is the total duration in minutes for all Biology exams?",
+      "How many students scored above 85 in subjects that require 3-hour exam duration?"
+    ],
+    "answers": [
+      "3",
+      "480",
+      "3.0"
+    ],
+    "origin_answers": [
+      "3",
+      "480",
+      "2"
+    ],
+    "ids": [
+      "nu-1213",
+      "nu-1214",
+      "nu-1215"
+    ],
+    "domain": "Education Courses",
+    "subdomain": "Exam papers & answer sheet structures",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "7_Subject": {
+        "type": "Missing Value",
+        "original": "English Literature"
+      },
+      "12_Duration_Minutes": {
+        "type": "Missing Value",
+        "original": "160"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:27:13.617531+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Education Courses-007",
+    "title": "Course Resource Metadata",
+    "table": {
+      "header": [
+        "Course_ID",
+        "Course_Title",
+        "Instructor",
+        "Department",
+        "Credits",
+        "Enrollment"
+      ],
+      "rows": [
+        [
+          "CS101",
+          "Introduction to Programming",
+          "Dr. Smith",
+          "Computer Science",
+          "3",
+          "45"
+        ],
+        [
+          "MATH201",
+          "Calculus II",
+          "Prof. Johnson",
+          "Mathematics",
+          "4",
+          "32"
+        ],
+        [
+          "ENG150",
+          "Academic Writing",
+          "Dr. Brown",
+          "",
+          "3",
+          "28"
+        ],
+        [
+          "PHYS301",
+          "Quantum Mechanics",
+          "Dr. Wilson",
+          "Physics",
+          "4",
+          "18"
+        ],
+        [
+          "HIST120",
+          "World History",
+          "Prof. Davis",
+          "History",
+          "3",
+          "41"
+        ],
+        [
+          "CHEM210",
+          "Organic Chemistry",
+          "Dr. Miller",
+          "Chemistry",
+          "4",
+          "25"
+        ],
+        [
+          "CS250",
+          "Data Structures",
+          "",
+          "Computer Science",
+          "3",
+          "38"
+        ],
+        [
+          "MATH301",
+          "Linear Algebra",
+          "Prof. Garcia",
+          "Mathematics",
+          "3",
+          "29"
+        ],
+        [
+          "ENG220",
+          "Literature Analysis",
+          "Dr. Taylor",
+          "English",
+          "3",
+          "35"
+        ],
+        [
+          "PHYS201",
+          "Classical Mechanics",
+          "Dr. Anderson",
+          "Physics",
+          "4",
+          "22"
+        ],
+        [
+          "HIST250",
+          "American History",
+          "Prof. Thomas",
+          "History",
+          "3",
+          ""
+        ],
+        [
+          "CHEM101",
+          "General Chemistry",
+          "Dr. White",
+          "Chemistry",
+          "4",
+          "42"
+        ],
+        [
+          "CS350",
+          "Database Systems",
+          "Dr. Lee",
+          "Computer Science",
+          "3",
+          "31"
+        ],
+        [
+          "MATH150",
+          "Statistics",
+          "Prof. Martin",
+          "Mathematics",
+          "3",
+          "39"
+        ],
+        [
+          "ENG180",
+          "Creative Writing",
+          "Dr. Clark",
+          "English",
+          "3",
+          "27"
+        ],
+        [
+          "PHYS150",
+          "Physics for Engineers",
+          "Dr. Rodriguez",
+          "Physics",
+          "4",
+          "33"
+        ],
+        [
+          "HIST180",
+          "Ancient Civilizations",
+          "Prof. Lewis",
+          "History",
+          "3",
+          "24"
+        ],
+        [
+          "CHEM305",
+          "Physical Chemistry",
+          "Dr. Walker",
+          "Chemistry",
+          "4",
+          "19"
+        ]
+      ]
+    },
+    "questions": [
+      "How many courses are offered by the English department?",
+      "What is the total enrollment for all Computer Science courses?"
+    ],
+    "answers": [
+      "3.0",
+      "114"
+    ],
+    "origin_answers": [
+      "4",
+      "114"
+    ],
+    "ids": [
+      "nu-1216",
+      "nu-1217"
+    ],
+    "domain": "Education Courses",
+    "subdomain": "Course resource metadata",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "3_Department": {
+        "type": "Missing Value",
+        "original": "English"
+      },
+      "7_Instructor": {
+        "type": "Missing Value",
+        "original": "Dr. Thompson"
+      },
+      "11_Enrollment": {
+        "type": "Missing Value",
+        "original": "36"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:27:43.644369+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Education Courses-009",
+    "title": "Educational Course Evaluation Survey Results",
+    "table": {
+      "header": [
+        "Course_ID",
+        "Course_Name",
+        "Instructor",
+        "Department",
+        "Enrollment",
+        "Satisfaction_Rating"
+      ],
+      "rows": [
+        [
+          "EDU101",
+          "Introduction to Education",
+          "Dr. Smith",
+          "Education",
+          "45",
+          "4.2"
+        ],
+        [
+          "PSY201",
+          "Educational Psychology",
+          "Prof. Johnson",
+          "Psychology",
+          "38",
+          "4.5"
+        ],
+        [
+          "EDU205",
+          "Curriculum Development",
+          "Dr. Brown",
+          "",
+          "32",
+          "4.1"
+        ],
+        [
+          "MATH301",
+          "Mathematics Pedagogy",
+          "Prof. Davis",
+          "Mathematics",
+          "28",
+          "4.3"
+        ],
+        [
+          "ENG215",
+          "Language Arts Methods",
+          "Dr. Wilson",
+          "English",
+          "41",
+          "4.4"
+        ],
+        [
+          "SCI310",
+          "Science Education",
+          "Prof. Miller",
+          "Science",
+          "35",
+          "4.0"
+        ],
+        [
+          "EDU320",
+          "Classroom Management",
+          "Dr. Taylor",
+          "Education",
+          "50",
+          "4.6"
+        ],
+        [
+          "PSY305",
+          "Child Development",
+          "Prof. Anderson",
+          "Psychology",
+          "43",
+          "4.3"
+        ],
+        [
+          "EDU401",
+          "Educational Assessment",
+          "Dr. Thomas",
+          "Education",
+          "",
+          "4.2"
+        ],
+        [
+          "HIST220",
+          "History Teaching Methods",
+          "Prof. Jackson",
+          "History",
+          "29",
+          "3.9"
+        ],
+        [
+          "ART250",
+          "Arts in Education",
+          "Dr. White",
+          "Arts",
+          "25",
+          "4.7"
+        ],
+        [
+          "EDU450",
+          "Special Education",
+          "Prof. Harris",
+          "Education",
+          "36",
+          "4.5"
+        ],
+        [
+          "PE180",
+          "Physical Education Methods",
+          "Dr. Martin",
+          "Physical Education",
+          "31",
+          "4.1"
+        ],
+        [
+          "MUS240",
+          "Music Education",
+          "Prof. Thompson",
+          "Music",
+          "22",
+          "4.8"
+        ],
+        [
+          "EDU499",
+          "Student Teaching Seminar",
+          "Dr. Garcia",
+          "Education",
+          "48",
+          ""
+        ],
+        [
+          "SOC330",
+          "Educational Sociology",
+          "Prof. Rodriguez",
+          "Sociology",
+          "33",
+          "4.0"
+        ],
+        [
+          "TECH210",
+          "Educational Technology",
+          "Dr. Lee",
+          "Technology",
+          "39",
+          "4.4"
+        ],
+        [
+          "EDU380",
+          "Multicultural Education",
+          "Prof. Clark",
+          "Education",
+          "44",
+          "4.3"
+        ]
+      ]
+    },
+    "questions": [
+      "How many courses have both enrollment and satisfaction rating data complete?"
+    ],
+    "answers": [
+      "16"
+    ],
+    "origin_answers": [
+      "16"
+    ],
+    "ids": [
+      "nu-1218"
+    ],
+    "domain": "Education Courses",
+    "subdomain": "Educational evaluation surveys",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "3_Department": {
+        "type": "Missing Value",
+        "original": "Education"
+      },
+      "9_Enrollment": {
+        "type": "Missing Value",
+        "original": "42"
+      },
+      "15_Satisfaction_Rating": {
+        "type": "Missing Value",
+        "original": "4.4"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:28:14.073090+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Education Courses-010",
+    "title": "Student Enrollment Records",
+    "table": {
+      "header": [
+        "Student_ID",
+        "Course_Code",
+        "Course_Name",
+        "Semester",
+        "Grade",
+        "Credits"
+      ],
+      "rows": [
+        [
+          "STU001",
+          "CS101",
+          "Introduction to Programming",
+          "Fall 2023",
+          "A",
+          "3"
+        ],
+        [
+          "STU002",
+          "MATH201",
+          "Calculus II",
+          "Fall 2023",
+          "B+",
+          "4"
+        ],
+        [
+          "STU003",
+          "ENG102",
+          "Academic Writing",
+          "Fall 2023",
+          "A-",
+          "3"
+        ],
+        [
+          "STU004",
+          "CS201",
+          "Data Structures",
+          "Spring 2024",
+          "",
+          "3"
+        ],
+        [
+          "STU005",
+          "PHYS101",
+          "General Physics",
+          "Fall 2023",
+          "B",
+          "4"
+        ],
+        [
+          "STU006",
+          "MATH101",
+          "Calculus I",
+          "Fall 2023",
+          "A",
+          "4"
+        ],
+        [
+          "STU007",
+          "CS101",
+          "Introduction to Programming",
+          "Spring 2024",
+          "B+",
+          "3"
+        ],
+        [
+          "STU008",
+          "ENG101",
+          "Composition",
+          "Fall 2023",
+          "A-",
+          "3"
+        ],
+        [
+          "STU009",
+          "MATH201",
+          "Calculus II",
+          "Spring 2024",
+          "B",
+          "4"
+        ],
+        [
+          "STU010",
+          "CS201",
+          "Data Structures",
+          "Fall 2023",
+          "A-",
+          "3"
+        ],
+        [
+          "STU011",
+          "",
+          "Database Systems",
+          "Spring 2024",
+          "B+",
+          "3"
+        ],
+        [
+          "STU012",
+          "PHYS201",
+          "Modern Physics",
+          "Spring 2024",
+          "A",
+          "4"
+        ],
+        [
+          "STU013",
+          "CS301",
+          "Software Engineering",
+          "Fall 2023",
+          "B",
+          "3"
+        ],
+        [
+          "STU014",
+          "MATH301",
+          "Linear Algebra",
+          "Spring 2024",
+          "A-",
+          ""
+        ],
+        [
+          "STU015",
+          "ENG201",
+          "Literature Survey",
+          "Fall 2023",
+          "B+",
+          "3"
+        ],
+        [
+          "STU016",
+          "CS101",
+          "Introduction to Programming",
+          "Fall 2023",
+          "A",
+          "3"
+        ],
+        [
+          "STU017",
+          "PHYS101",
+          "General Physics",
+          "Spring 2024",
+          "B-",
+          "4"
+        ],
+        [
+          "STU018",
+          "MATH201",
+          "Calculus II",
+          "Fall 2023",
+          "A-",
+          "4"
+        ]
+      ]
+    },
+    "questions": [
+      "How many students are enrolled in mathematics courses during Spring 2024?"
+    ],
+    "answers": [
+      "2"
+    ],
+    "origin_answers": [
+      "2"
+    ],
+    "ids": [
+      "nu-1219"
+    ],
+    "domain": "Education Courses",
+    "subdomain": "Student enrollment records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Grade": {
+        "type": "Missing Value",
+        "original": "A-"
+      },
+      "11_Course_Code": {
+        "type": "Missing Value",
+        "original": "CS401"
+      },
+      "14_Credits": {
+        "type": "Missing Value",
+        "original": "3"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:28:29.345906+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Environmental Monitoring-005",
+    "title": "Municipal Waste Disposal Records - January 2024",
+    "table": {
+      "header": [
+        "Facility_ID",
+        "Waste_Type",
+        "Disposal_Method",
+        "Weight_Tons",
+        "Processing_Cost",
+        "Disposal_Date"
+      ],
+      "rows": [
+        [
+          "WF-001",
+          "Organic",
+          "Composting",
+          "12.5",
+          "850",
+          "2024-01-15"
+        ],
+        [
+          "WF-002",
+          "Plastic",
+          "Recycling",
+          "8.3",
+          "1200",
+          "2024-01-16"
+        ],
+        [
+          "WF-003",
+          "Electronic",
+          "Specialized",
+          "3.7",
+          "2500",
+          "2024-01-17"
+        ],
+        [
+          "WF-004",
+          "Glass",
+          "Recycling",
+          "15.2",
+          "900",
+          "2024-01-18"
+        ],
+        [
+          "WF-005",
+          "Organic",
+          "",
+          "9.8",
+          "750",
+          "2024-01-19"
+        ],
+        [
+          "WF-006",
+          "Metal",
+          "Recycling",
+          "22.1",
+          "1100",
+          "2024-01-20"
+        ],
+        [
+          "WF-007",
+          "Hazardous",
+          "Incineration",
+          "4.5",
+          "3200",
+          "2024-01-21"
+        ],
+        [
+          "WF-008",
+          "Paper",
+          "Recycling",
+          "18.9",
+          "650",
+          "2024-01-22"
+        ],
+        [
+          "WF-009",
+          "Organic",
+          "Composting",
+          "14.3",
+          "920",
+          "2024-01-23"
+        ],
+        [
+          "WF-010",
+          "",
+          "Recycling",
+          "11.7",
+          "1050",
+          "2024-01-24"
+        ],
+        [
+          "WF-011",
+          "Textile",
+          "Landfill",
+          "6.8",
+          "400",
+          "2024-01-25"
+        ],
+        [
+          "WF-012",
+          "Electronic",
+          "Specialized",
+          "2.9",
+          "2800",
+          "2024-01-26"
+        ],
+        [
+          "WF-013",
+          "Glass",
+          "Recycling",
+          "19.4",
+          "950",
+          "2024-01-27"
+        ],
+        [
+          "WF-014",
+          "Hazardous",
+          "Incineration",
+          "5.1",
+          "3500",
+          "2024-01-28"
+        ],
+        [
+          "WF-015",
+          "Paper",
+          "Recycling",
+          "16.2",
+          "700",
+          "2024-01-29"
+        ],
+        [
+          "WF-016",
+          "Metal",
+          "Recycling",
+          "25.8",
+          "",
+          "2024-01-30"
+        ],
+        [
+          "WF-017",
+          "Organic",
+          "Composting",
+          "13.6",
+          "880",
+          "2024-01-31"
+        ],
+        [
+          "WF-018",
+          "Plastic",
+          "Recycling",
+          "7.9",
+          "1150",
+          "2024-02-01"
+        ]
+      ]
+    },
+    "questions": [
+      "How many facilities used composting as their disposal method?",
+      "What is the total weight of waste processed through recycling methods?",
+      "How many different waste types were processed using specialized disposal methods?"
+    ],
+    "answers": [
+      "4",
+      "146.0",
+      "1"
+    ],
+    "origin_answers": [
+      "4",
+      "127.3",
+      "1"
+    ],
+    "ids": [
+      "nu-1220",
+      "nu-1221",
+      "nu-1222"
+    ],
+    "domain": "Environmental Monitoring",
+    "subdomain": "Waste sorting & disposal records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "5_3": {
+        "type": "Missing Value",
+        "original": "Composting"
+      },
+      "10_2": {
+        "type": "Missing Value",
+        "original": "Plastic"
+      },
+      "16_5": {
+        "type": "Missing Value",
+        "original": "1300"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:37:37.971060+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Environmental Monitoring-006",
+    "title": "Regional Weather Station Readings",
+    "table": {
+      "header": [
+        "Station_ID",
+        "Location",
+        "Temperature_C",
+        "Humidity_%",
+        "Wind_Speed_kmh",
+        "Weather_Condition"
+      ],
+      "rows": [
+        [
+          "WS001",
+          "Downtown",
+          "22.5",
+          "65",
+          "12",
+          "Clear"
+        ],
+        [
+          "WS002",
+          "Airport",
+          "24.1",
+          "58",
+          "18",
+          "Partly Cloudy"
+        ],
+        [
+          "WS003",
+          "Harbor",
+          "21.8",
+          "72",
+          "25",
+          "Clear"
+        ],
+        [
+          "WS004",
+          "Industrial",
+          "23.2",
+          "61",
+          "15",
+          "Overcast"
+        ],
+        [
+          "WS005",
+          "Residential",
+          "22.9",
+          "",
+          "10",
+          "Clear"
+        ],
+        [
+          "WS006",
+          "University",
+          "20.5",
+          "78",
+          "8",
+          "Foggy"
+        ],
+        [
+          "WS007",
+          "Park",
+          "25.3",
+          "55",
+          "22",
+          "Clear"
+        ],
+        [
+          "WS008",
+          "Suburban",
+          "23.7",
+          "63",
+          "14",
+          "Partly Cloudy"
+        ],
+        [
+          "WS009",
+          "Coastal",
+          "19.2",
+          "85",
+          "30",
+          "Overcast"
+        ],
+        [
+          "WS010",
+          "Mountain",
+          "18.6",
+          "82",
+          "35",
+          "Foggy"
+        ],
+        [
+          "WS011",
+          "Valley",
+          "26.1",
+          "52",
+          "6",
+          "Clear"
+        ],
+        [
+          "WS012",
+          "Highway",
+          "24.8",
+          "59",
+          "",
+          "Partly Cloudy"
+        ],
+        [
+          "WS013",
+          "Forest",
+          "17.9",
+          "88",
+          "12",
+          "Foggy"
+        ],
+        [
+          "WS014",
+          "Desert",
+          "28.4",
+          "42",
+          "20",
+          "Clear"
+        ],
+        [
+          "WS015",
+          "Lakeside",
+          "21.3",
+          "76",
+          "16",
+          ""
+        ],
+        [
+          "WS016",
+          "Commercial",
+          "25.7",
+          "54",
+          "11",
+          "Clear"
+        ],
+        [
+          "WS017",
+          "Rural",
+          "22.1",
+          "67",
+          "9",
+          "Partly Cloudy"
+        ],
+        [
+          "WS018",
+          "Urban",
+          "24.5",
+          "60",
+          "17",
+          "Overcast"
+        ]
+      ]
+    },
+    "questions": [
+      "How many stations have both low wind speed (below 15 kmh) and clear weather conditions?"
+    ],
+    "answers": [
+      "4.0"
+    ],
+    "origin_answers": [
+      "3"
+    ],
+    "ids": [
+      "nu-1223"
+    ],
+    "domain": "Environmental Monitoring",
+    "subdomain": "Weather station data",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "5_Humidity_%": {
+        "type": "Missing Value",
+        "original": "68"
+      },
+      "12_Wind_Speed_kmh": {
+        "type": "Missing Value",
+        "original": "13"
+      },
+      "15_Weather_Condition": {
+        "type": "Missing Value",
+        "original": "Overcast"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:37:52.247984+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Environmental Monitoring-007",
+    "title": "Industrial Carbon Emission Records 2023",
+    "table": {
+      "header": [
+        "Facility_ID",
+        "Company",
+        "Emission_Type",
+        "Annual_CO2_Tons",
+        "Compliance_Status",
+        "Region"
+      ],
+      "rows": [
+        [
+          "FAC001",
+          "GreenTech Industries",
+          "Direct",
+          "1250",
+          "Compliant",
+          "Northeast"
+        ],
+        [
+          "FAC002",
+          "EcoManufacturing Corp",
+          "Indirect",
+          "890",
+          "Compliant",
+          "Southeast"
+        ],
+        [
+          "FAC003",
+          "SustainablePower LLC",
+          "Direct",
+          "2100",
+          "Non-Compliant",
+          "West"
+        ],
+        [
+          "FAC004",
+          "CleanEnergy Solutions",
+          "",
+          "1680",
+          "Compliant",
+          "Midwest"
+        ],
+        [
+          "FAC005",
+          "RenewableTech Inc",
+          "Indirect",
+          "750",
+          "Compliant",
+          "Northeast"
+        ],
+        [
+          "FAC006",
+          "EcoFriendly Manufacturing",
+          "Direct",
+          "1950",
+          "Non-Compliant",
+          "Southeast"
+        ],
+        [
+          "FAC007",
+          "GreenPower Systems",
+          "Indirect",
+          "1120",
+          "Compliant",
+          "West"
+        ],
+        [
+          "FAC008",
+          "SustainableIndustries",
+          "Direct",
+          "1800",
+          "Compliant",
+          "Midwest"
+        ],
+        [
+          "FAC009",
+          "CleanTech Solutions",
+          "Indirect",
+          "950",
+          "",
+          "Northeast"
+        ],
+        [
+          "FAC010",
+          "EcoInnovation Corp",
+          "Direct",
+          "2250",
+          "Non-Compliant",
+          "Southeast"
+        ],
+        [
+          "FAC011",
+          "RenewableManufacturing",
+          "Indirect",
+          "1050",
+          "Compliant",
+          "West"
+        ],
+        [
+          "FAC012",
+          "GreenIndustrial Group",
+          "Direct",
+          "1750",
+          "Compliant",
+          "Midwest"
+        ],
+        [
+          "FAC013",
+          "SustainableSystems LLC",
+          "Indirect",
+          "880",
+          "Compliant",
+          "Northeast"
+        ],
+        [
+          "FAC014",
+          "EcoTech Industries",
+          "Direct",
+          "",
+          "Non-Compliant",
+          "Southeast"
+        ],
+        [
+          "FAC015",
+          "CleanManufacturing Inc",
+          "Indirect",
+          "1300",
+          "Compliant",
+          "West"
+        ],
+        [
+          "FAC016",
+          "GreenSolutions Corp",
+          "Direct",
+          "2050",
+          "Non-Compliant",
+          "Midwest"
+        ],
+        [
+          "FAC017",
+          "RenewableIndustries",
+          "Indirect",
+          "920",
+          "Compliant",
+          "Northeast"
+        ],
+        [
+          "FAC018",
+          "SustainableTech Group",
+          "Direct",
+          "1850",
+          "Compliant",
+          "Southeast"
+        ]
+      ]
+    },
+    "questions": [
+      "How many facilities in the Southeast region have Compliant status?"
+    ],
+    "answers": [
+      "2.0"
+    ],
+    "origin_answers": [
+      "3"
+    ],
+    "ids": [
+      "nu-1224"
+    ],
+    "domain": "Environmental Monitoring",
+    "subdomain": "Carbon emission records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_3": {
+        "type": "Missing Value",
+        "original": "Direct"
+      },
+      "9_5": {
+        "type": "Missing Value",
+        "original": "Compliant"
+      },
+      "14_4": {
+        "type": "Missing Value",
+        "original": "2200"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:38:07.716597+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Environmental Monitoring-010",
+    "title": "Environmental Risk Assessment Data",
+    "table": {
+      "header": [
+        "Site_ID",
+        "Pollutant_Type",
+        "Concentration_PPM",
+        "Risk_Level",
+        "Monitoring_Station",
+        "Assessment_Date"
+      ],
+      "rows": [
+        [
+          "ENV-001",
+          "Lead",
+          "0.15",
+          "High",
+          "Station_A",
+          "2024-01-15"
+        ],
+        [
+          "ENV-002",
+          "Mercury",
+          "0.008",
+          "Medium",
+          "Station_B",
+          "2024-01-16"
+        ],
+        [
+          "ENV-003",
+          "Arsenic",
+          "0.025",
+          "High",
+          "Station_C",
+          "2024-01-17"
+        ],
+        [
+          "ENV-004",
+          "Lead",
+          "0.12",
+          "",
+          "Station_A",
+          "2024-01-18"
+        ],
+        [
+          "ENV-005",
+          "Cadmium",
+          "0.003",
+          "Low",
+          "Station_D",
+          "2024-01-19"
+        ],
+        [
+          "ENV-006",
+          "Mercury",
+          "0.006",
+          "Medium",
+          "Station_B",
+          "2024-01-20"
+        ],
+        [
+          "ENV-007",
+          "Arsenic",
+          "0.030",
+          "High",
+          "Station_C",
+          "2024-01-21"
+        ],
+        [
+          "ENV-008",
+          "Lead",
+          "0.18",
+          "High",
+          "Station_A",
+          "2024-01-22"
+        ],
+        [
+          "ENV-009",
+          "",
+          "0.004",
+          "Low",
+          "Station_D",
+          "2024-01-23"
+        ],
+        [
+          "ENV-010",
+          "Mercury",
+          "0.009",
+          "Medium",
+          "Station_B",
+          "2024-01-24"
+        ],
+        [
+          "ENV-011",
+          "Arsenic",
+          "0.022",
+          "High",
+          "Station_C",
+          "2024-01-25"
+        ],
+        [
+          "ENV-012",
+          "Lead",
+          "0.14",
+          "High",
+          "Station_A",
+          "2024-01-26"
+        ],
+        [
+          "ENV-013",
+          "Cadmium",
+          "0.002",
+          "Low",
+          "Station_D",
+          "2024-01-27"
+        ],
+        [
+          "ENV-014",
+          "Mercury",
+          "0.007",
+          "Medium",
+          "Station_B",
+          "2024-01-28"
+        ],
+        [
+          "ENV-015",
+          "Arsenic",
+          "0.028",
+          "High",
+          "Station_C",
+          "2024-01-29"
+        ],
+        [
+          "ENV-016",
+          "Lead",
+          "0.16",
+          "High",
+          "",
+          "2024-01-30"
+        ],
+        [
+          "ENV-017",
+          "Cadmium",
+          "0.005",
+          "Low",
+          "Station_D",
+          "2024-01-31"
+        ],
+        [
+          "ENV-018",
+          "Mercury",
+          "0.010",
+          "Medium",
+          "Station_B",
+          "2024-02-01"
+        ]
+      ]
+    },
+    "questions": [
+      "How many high-risk lead contamination sites were monitored at Station_A?",
+      "What is the total number of cadmium contamination assessments recorded?"
+    ],
+    "answers": [
+      "5.0",
+      "4.0"
+    ],
+    "origin_answers": [
+      "3",
+      "3"
+    ],
+    "ids": [
+      "nu-1225",
+      "nu-1226"
+    ],
+    "domain": "Environmental Monitoring",
+    "subdomain": "Environmental risk assessment forms",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Risk_Level": {
+        "type": "Missing Value",
+        "original": "High"
+      },
+      "9_Pollutant_Type": {
+        "type": "Missing Value",
+        "original": "Cadmium"
+      },
+      "16_Monitoring_Station": {
+        "type": "Missing Value",
+        "original": "Station_A"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:38:54.835949+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Financial Services-002",
+    "title": "Credit Card Account Details",
+    "table": {
+      "header": [
+        "Account_Number",
+        "Card_Type",
+        "Monthly_Fee",
+        "Annual_Fee",
+        "Credit_Limit",
+        "Status"
+      ],
+      "rows": [
+        [
+          "CC-4401",
+          "Premium",
+          "25.00",
+          "300.00",
+          "15000",
+          "Active"
+        ],
+        [
+          "CC-4402",
+          "Standard",
+          "0.00",
+          "0.00",
+          "5000",
+          "Active"
+        ],
+        [
+          "CC-4403",
+          "Premium",
+          "25.00",
+          "300.00",
+          "20000",
+          "Active"
+        ],
+        [
+          "CC-4404",
+          "Business",
+          "15.00",
+          "180.00",
+          "25000",
+          "Active"
+        ],
+        [
+          "CC-4405",
+          "Standard",
+          "0.00",
+          "0.00",
+          "3000",
+          "Suspended"
+        ],
+        [
+          "CC-4406",
+          "",
+          "25.00",
+          "300.00",
+          "18000",
+          "Active"
+        ],
+        [
+          "CC-4407",
+          "Business",
+          "15.00",
+          "180.00",
+          "30000",
+          "Active"
+        ],
+        [
+          "CC-4408",
+          "Premium",
+          "25.00",
+          "300.00",
+          "12000",
+          "Closed"
+        ],
+        [
+          "CC-4409",
+          "Standard",
+          "0.00",
+          "0.00",
+          "4000",
+          "Active"
+        ],
+        [
+          "CC-4410",
+          "Business",
+          "15.00",
+          "",
+          "22000",
+          "Active"
+        ],
+        [
+          "CC-4411",
+          "Premium",
+          "25.00",
+          "300.00",
+          "16000",
+          "Active"
+        ],
+        [
+          "CC-4412",
+          "Standard",
+          "0.00",
+          "0.00",
+          "6000",
+          "Suspended"
+        ],
+        [
+          "CC-4413",
+          "Premium",
+          "25.00",
+          "300.00",
+          "14000",
+          "Active"
+        ],
+        [
+          "CC-4414",
+          "Business",
+          "15.00",
+          "180.00",
+          "28000",
+          "Active"
+        ],
+        [
+          "CC-4415",
+          "Standard",
+          "0.00",
+          "0.00",
+          "",
+          "Active"
+        ],
+        [
+          "CC-4416",
+          "Premium",
+          "25.00",
+          "300.00",
+          "17000",
+          "Closed"
+        ],
+        [
+          "CC-4417",
+          "Business",
+          "15.00",
+          "180.00",
+          "26000",
+          "Active"
+        ],
+        [
+          "CC-4418",
+          "Standard",
+          "0.00",
+          "0.00",
+          "5500",
+          "Active"
+        ]
+      ]
+    },
+    "questions": [
+      "How many Premium credit card accounts are currently active?",
+      "What is the total credit limit for all Business card accounts?"
+    ],
+    "answers": [
+      "5",
+      "149000.0"
+    ],
+    "origin_answers": [
+      "5",
+      "131000"
+    ],
+    "ids": [
+      "nu-1227",
+      "nu-1228"
+    ],
+    "domain": "Financial Services",
+    "subdomain": "Credit card billing details",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "6_Card_Type": {
+        "type": "Missing Value",
+        "original": "Premium"
+      },
+      "10_Annual_Fee": {
+        "type": "Missing Value",
+        "original": "180.00"
+      },
+      "15_Credit_Limit": {
+        "type": "Missing Value",
+        "original": "7000"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:23:52.341829+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Financial Services-005",
+    "title": "Stock Trading Records Q4 2023",
+    "table": {
+      "header": [
+        "Trade_ID",
+        "Stock_Symbol",
+        "Trade_Type",
+        "Quantity",
+        "Price_Per_Share",
+        "Total_Value"
+      ],
+      "rows": [
+        [
+          "TRD001",
+          "AAPL",
+          "BUY",
+          "100",
+          "150.25",
+          "15025.00"
+        ],
+        [
+          "TRD002",
+          "GOOGL",
+          "SELL",
+          "50",
+          "2750.80",
+          "137540.00"
+        ],
+        [
+          "TRD003",
+          "MSFT",
+          "BUY",
+          "200",
+          "305.45",
+          "61090.00"
+        ],
+        [
+          "TRD004",
+          "TSLA",
+          "",
+          "75",
+          "245.60",
+          "18420.00"
+        ],
+        [
+          "TRD005",
+          "AMZN",
+          "BUY",
+          "30",
+          "3200.15",
+          "96004.50"
+        ],
+        [
+          "TRD006",
+          "META",
+          "SELL",
+          "120",
+          "185.90",
+          "22308.00"
+        ],
+        [
+          "TRD007",
+          "NVDA",
+          "BUY",
+          "80",
+          "420.75",
+          "33660.00"
+        ],
+        [
+          "TRD008",
+          "NFLX",
+          "SELL",
+          "60",
+          "375.20",
+          "22512.00"
+        ],
+        [
+          "TRD009",
+          "ORCL",
+          "BUY",
+          "150",
+          "78.45",
+          "11767.50"
+        ],
+        [
+          "TRD010",
+          "CRM",
+          "SELL",
+          "90",
+          "210.30",
+          "18927.00"
+        ],
+        [
+          "TRD011",
+          "ADBE",
+          "BUY",
+          "40",
+          "485.60",
+          "19424.00"
+        ],
+        [
+          "TRD012",
+          "INTC",
+          "SELL",
+          "",
+          "55.80",
+          "11160.00"
+        ],
+        [
+          "TRD013",
+          "AMD",
+          "BUY",
+          "110",
+          "95.25",
+          "10477.50"
+        ],
+        [
+          "TRD014",
+          "PYPL",
+          "SELL",
+          "85",
+          "67.40",
+          "5729.00"
+        ],
+        [
+          "TRD015",
+          "SHOP",
+          "BUY",
+          "25",
+          "45.85",
+          "1146.25"
+        ],
+        [
+          "TRD016",
+          "SQ",
+          "",
+          "130",
+          "78.90",
+          "10257.00"
+        ],
+        [
+          "TRD017",
+          "UBER",
+          "SELL",
+          "180",
+          "32.15",
+          "5787.00"
+        ],
+        [
+          "TRD018",
+          "LYFT",
+          "BUY",
+          "95",
+          "12.80",
+          "1216.00"
+        ]
+      ]
+    },
+    "questions": [
+      "How many trades involved quantities greater than 100 shares?"
+    ],
+    "answers": [
+      "7.0"
+    ],
+    "origin_answers": [
+      "6"
+    ],
+    "ids": [
+      "nu-1229"
+    ],
+    "domain": "Financial Services",
+    "subdomain": "Stock trading records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Trade_Type": {
+        "type": "Missing Value",
+        "original": "BUY"
+      },
+      "12_Quantity": {
+        "type": "Missing Value",
+        "original": "200"
+      },
+      "16_Trade_Type": {
+        "type": "Missing Value",
+        "original": "BUY"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:24:40.875360+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Government Affairs-003",
+    "title": "Government Service Appointment Processing Log",
+    "table": {
+      "header": [
+        "Appointment_ID",
+        "Service_Type",
+        "Department",
+        "Priority_Level",
+        "Processing_Days",
+        "Status"
+      ],
+      "rows": [
+        [
+          "APT-2024-001",
+          "Business License",
+          "Commerce",
+          "Standard",
+          "14",
+          "Completed"
+        ],
+        [
+          "APT-2024-002",
+          "Building Permit",
+          "Planning",
+          "High",
+          "21",
+          "In Progress"
+        ],
+        [
+          "APT-2024-003",
+          "Tax Registration",
+          "Revenue",
+          "Standard",
+          "7",
+          "Completed"
+        ],
+        [
+          "APT-2024-004",
+          "Health Permit",
+          "Health",
+          "",
+          "10",
+          "Completed"
+        ],
+        [
+          "APT-2024-005",
+          "Environmental Assessment",
+          "Environment",
+          "High",
+          "28",
+          "In Progress"
+        ],
+        [
+          "APT-2024-006",
+          "Business License",
+          "Commerce",
+          "Standard",
+          "14",
+          "Completed"
+        ],
+        [
+          "APT-2024-007",
+          "Zoning Variance",
+          "Planning",
+          "High",
+          "35",
+          "Under Review"
+        ],
+        [
+          "APT-2024-008",
+          "Food Service License",
+          "Health",
+          "Standard",
+          "12",
+          ""
+        ],
+        [
+          "APT-2024-009",
+          "Construction Permit",
+          "Planning",
+          "High",
+          "21",
+          "In Progress"
+        ],
+        [
+          "APT-2024-010",
+          "Tax Registration",
+          "Revenue",
+          "Standard",
+          "7",
+          "Completed"
+        ],
+        [
+          "APT-2024-011",
+          "Business License",
+          "Commerce",
+          "Standard",
+          "14",
+          "Completed"
+        ],
+        [
+          "APT-2024-012",
+          "Environmental Impact",
+          "",
+          "High",
+          "42",
+          "Under Review"
+        ],
+        [
+          "APT-2024-013",
+          "Health Permit",
+          "Health",
+          "Standard",
+          "10",
+          "Completed"
+        ],
+        [
+          "APT-2024-014",
+          "Building Permit",
+          "Planning",
+          "High",
+          "21",
+          "In Progress"
+        ],
+        [
+          "APT-2024-015",
+          "Tax Registration",
+          "Revenue",
+          "Standard",
+          "7",
+          "Completed"
+        ],
+        [
+          "APT-2024-016",
+          "Business License",
+          "Commerce",
+          "Standard",
+          "14",
+          "Completed"
+        ],
+        [
+          "APT-2024-017",
+          "Zoning Variance",
+          "Planning",
+          "High",
+          "35",
+          "Under Review"
+        ],
+        [
+          "APT-2024-018",
+          "Food Service License",
+          "Health",
+          "Standard",
+          "12",
+          "Completed"
+        ]
+      ]
+    },
+    "questions": [
+      "What is the total processing time for all Health department services?"
+    ],
+    "answers": [
+      "44.0"
+    ],
+    "origin_answers": [
+      "34"
+    ],
+    "ids": [
+      "nu-1230"
+    ],
+    "domain": "Government Affairs",
+    "subdomain": "Government service appointment logs",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Priority_Level": {
+        "type": "Missing Value",
+        "original": "Standard"
+      },
+      "8_Status": {
+        "type": "Missing Value",
+        "original": "Completed"
+      },
+      "12_Department": {
+        "type": "Missing Value",
+        "original": "Environment"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:31:51.599385+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Government Affairs-006",
+    "title": "Business Tax Payment Records 2023",
+    "table": {
+      "header": [
+        "Taxpayer_ID",
+        "Business_Type",
+        "Tax_Year",
+        "Payment_Status",
+        "Amount_Due",
+        "Payment_Date"
+      ],
+      "rows": [
+        [
+          "TX001",
+          "Restaurant",
+          "2023",
+          "Paid",
+          "4500",
+          "2024-01-15"
+        ],
+        [
+          "TX002",
+          "Retail Store",
+          "2023",
+          "Paid",
+          "7200",
+          "2024-02-10"
+        ],
+        [
+          "TX003",
+          "Manufacturing",
+          "2023",
+          "Overdue",
+          "12000",
+          ""
+        ],
+        [
+          "TX004",
+          "Restaurant",
+          "2023",
+          "",
+          "3800",
+          "2024-01-20"
+        ],
+        [
+          "TX005",
+          "Consulting",
+          "2023",
+          "Paid",
+          "2900",
+          "2024-03-05"
+        ],
+        [
+          "TX006",
+          "Retail Store",
+          "2023",
+          "Paid",
+          "5600",
+          "2024-02-28"
+        ],
+        [
+          "TX007",
+          "Manufacturing",
+          "2023",
+          "Overdue",
+          "15000",
+          ""
+        ],
+        [
+          "TX008",
+          "Restaurant",
+          "2023",
+          "Paid",
+          "4200",
+          "2024-01-25"
+        ],
+        [
+          "TX009",
+          "Consulting",
+          "2023",
+          "Paid",
+          "3100",
+          "2024-03-12"
+        ],
+        [
+          "TX010",
+          "Retail Store",
+          "2023",
+          "Pending",
+          "6800",
+          ""
+        ],
+        [
+          "TX011",
+          "Manufacturing",
+          "2023",
+          "Paid",
+          "11500",
+          "2024-04-02"
+        ],
+        [
+          "TX012",
+          "Restaurant",
+          "2023",
+          "Paid",
+          "3900",
+          "2024-01-30"
+        ],
+        [
+          "TX013",
+          "Consulting",
+          "2023",
+          "",
+          "2700",
+          "2024-03-18"
+        ],
+        [
+          "TX014",
+          "Retail Store",
+          "2023",
+          "Overdue",
+          "7500",
+          ""
+        ],
+        [
+          "TX015",
+          "Manufacturing",
+          "2023",
+          "Paid",
+          "13200",
+          "2024-04-15"
+        ],
+        [
+          "TX016",
+          "Restaurant",
+          "2023",
+          "Paid",
+          "4100",
+          "2024-02-05"
+        ],
+        [
+          "TX017",
+          "Consulting",
+          "2023",
+          "Paid",
+          "3300",
+          "2024-03-22"
+        ],
+        [
+          "TX018",
+          "Retail Store",
+          "2023",
+          "Paid",
+          "6200",
+          "2024-02-20"
+        ]
+      ]
+    },
+    "questions": [
+      "How many restaurant businesses have fully resolved their 2023 tax obligations?"
+    ],
+    "answers": [
+      "5"
+    ],
+    "origin_answers": [
+      "5"
+    ],
+    "ids": [
+      "nu-1231"
+    ],
+    "domain": "Government Affairs",
+    "subdomain": "Tax payment records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Payment_Status": {
+        "type": "Missing Value",
+        "original": "Paid"
+      },
+      "13_Payment_Status": {
+        "type": "Missing Value",
+        "original": "Paid"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:32:37.342290+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Government Affairs-007",
+    "title": "Employee Social Security Contribution Details",
+    "table": {
+      "header": [
+        "Employee_ID",
+        "Department",
+        "Monthly_Salary",
+        "Contribution_Rate",
+        "Monthly_Contribution",
+        "Employment_Status"
+      ],
+      "rows": [
+        [
+          "EMP001",
+          "Finance",
+          "4500",
+          "8.5%",
+          "382.50",
+          "Full-time"
+        ],
+        [
+          "EMP002",
+          "HR",
+          "3800",
+          "8.5%",
+          "323.00",
+          "Full-time"
+        ],
+        [
+          "EMP003",
+          "IT",
+          "5200",
+          "8.5%",
+          "442.00",
+          "Full-time"
+        ],
+        [
+          "EMP004",
+          "Finance",
+          "4200",
+          "",
+          "357.00",
+          "Full-time"
+        ],
+        [
+          "EMP005",
+          "Operations",
+          "3600",
+          "8.5%",
+          "306.00",
+          "Part-time"
+        ],
+        [
+          "EMP006",
+          "IT",
+          "4800",
+          "8.5%",
+          "408.00",
+          "Full-time"
+        ],
+        [
+          "EMP007",
+          "HR",
+          "3900",
+          "8.5%",
+          "331.50",
+          "Full-time"
+        ],
+        [
+          "EMP008",
+          "Marketing",
+          "4100",
+          "8.5%",
+          "348.50",
+          "Full-time"
+        ],
+        [
+          "EMP009",
+          "Operations",
+          "3400",
+          "6.0%",
+          "204.00",
+          "Part-time"
+        ],
+        [
+          "EMP010",
+          "Finance",
+          "4600",
+          "8.5%",
+          "391.00",
+          "Full-time"
+        ],
+        [
+          "EMP011",
+          "IT",
+          "",
+          "8.5%",
+          "467.50",
+          "Full-time"
+        ],
+        [
+          "EMP012",
+          "Marketing",
+          "4300",
+          "8.5%",
+          "365.50",
+          "Full-time"
+        ],
+        [
+          "EMP013",
+          "HR",
+          "3700",
+          "6.0%",
+          "222.00",
+          "Part-time"
+        ],
+        [
+          "EMP014",
+          "Operations",
+          "3500",
+          "8.5%",
+          "297.50",
+          "Full-time"
+        ],
+        [
+          "EMP015",
+          "Finance",
+          "4400",
+          "8.5%",
+          "374.00",
+          ""
+        ],
+        [
+          "EMP016",
+          "IT",
+          "5000",
+          "8.5%",
+          "425.00",
+          "Full-time"
+        ],
+        [
+          "EMP017",
+          "Marketing",
+          "4000",
+          "6.0%",
+          "240.00",
+          "Part-time"
+        ],
+        [
+          "EMP018",
+          "HR",
+          "3850",
+          "8.5%",
+          "327.25",
+          "Full-time"
+        ]
+      ]
+    },
+    "questions": [
+      "How many employees have a contribution rate of 8.5%?"
+    ],
+    "answers": [
+      "15.0"
+    ],
+    "origin_answers": [
+      "13"
+    ],
+    "ids": [
+      "nu-1232"
+    ],
+    "domain": "Government Affairs",
+    "subdomain": "Social security contribution details",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Contribution_Rate": {
+        "type": "Missing Value",
+        "original": "8.5%"
+      },
+      "11_Monthly_Salary": {
+        "type": "Missing Value",
+        "original": "5500"
+      },
+      "15_Employment_Status": {
+        "type": "Missing Value",
+        "original": "Full-time"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:32:52.800216+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Government Affairs-010",
+    "title": "Policy Document Feedback Records",
+    "table": {
+      "header": [
+        "Document_ID",
+        "Policy_Type",
+        "Feedback_Status",
+        "Department",
+        "Response_Days",
+        "Priority_Level"
+      ],
+      "rows": [
+        [
+          "POL-2024-001",
+          "Healthcare Reform",
+          "Under Review",
+          "Health Ministry",
+          "45",
+          "High"
+        ],
+        [
+          "POL-2024-002",
+          "Education Policy",
+          "Approved",
+          "Education Dept",
+          "30",
+          "Medium"
+        ],
+        [
+          "POL-2024-003",
+          "Tax Reform",
+          "Rejected",
+          "Treasury",
+          "60",
+          "High"
+        ],
+        [
+          "POL-2024-004",
+          "Environmental",
+          "",
+          "Environment Agency",
+          "25",
+          "High"
+        ],
+        [
+          "POL-2024-005",
+          "Healthcare Reform",
+          "Approved",
+          "Health Ministry",
+          "35",
+          "Medium"
+        ],
+        [
+          "POL-2024-006",
+          "Trade Policy",
+          "Under Review",
+          "Commerce Dept",
+          "40",
+          "Low"
+        ],
+        [
+          "POL-2024-007",
+          "Education Policy",
+          "Approved",
+          "Education Dept",
+          "28",
+          "Medium"
+        ],
+        [
+          "POL-2024-008",
+          "Tax Reform",
+          "Under Review",
+          "Treasury",
+          "55",
+          "High"
+        ],
+        [
+          "POL-2024-009",
+          "Environmental",
+          "Approved",
+          "",
+          "32",
+          "Medium"
+        ],
+        [
+          "POL-2024-010",
+          "Healthcare Reform",
+          "Rejected",
+          "Health Ministry",
+          "50",
+          "High"
+        ],
+        [
+          "POL-2024-011",
+          "Trade Policy",
+          "Approved",
+          "Commerce Dept",
+          "38",
+          "Low"
+        ],
+        [
+          "POL-2024-012",
+          "Education Policy",
+          "Under Review",
+          "Education Dept",
+          "42",
+          "Medium"
+        ],
+        [
+          "POL-2024-013",
+          "Environmental",
+          "Approved",
+          "Environment Agency",
+          "29",
+          "High"
+        ],
+        [
+          "POL-2024-014",
+          "Tax Reform",
+          "Approved",
+          "Treasury",
+          "",
+          "High"
+        ],
+        [
+          "POL-2024-015",
+          "Healthcare Reform",
+          "Under Review",
+          "Health Ministry",
+          "47",
+          "Medium"
+        ],
+        [
+          "POL-2024-016",
+          "Trade Policy",
+          "Rejected",
+          "Commerce Dept",
+          "65",
+          "Low"
+        ],
+        [
+          "POL-2024-017",
+          "Education Policy",
+          "Approved",
+          "Education Dept",
+          "33",
+          "Medium"
+        ],
+        [
+          "POL-2024-018",
+          "Environmental",
+          "Under Review",
+          "Environment Agency",
+          "41",
+          "High"
+        ]
+      ]
+    },
+    "questions": [
+      "Which department has processed the most environmental policy documents?"
+    ],
+    "answers": [
+      "Environment Agency"
+    ],
+    "origin_answers": [
+      "Environment Agency"
+    ],
+    "ids": [
+      "nu-1233"
+    ],
+    "domain": "Government Affairs",
+    "subdomain": "Policy document feedback records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_3": {
+        "type": "Missing Value",
+        "original": "Approved"
+      },
+      "9_4": {
+        "type": "Missing Value",
+        "original": "Environment Agency"
+      },
+      "14_5": {
+        "type": "Missing Value",
+        "original": "62"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:33:42.113220+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Healthcare-001",
+    "title": "Medical Examination Reports - January 2024",
+    "table": {
+      "header": [
+        "Patient_ID",
+        "Procedure_Code",
+        "Procedure_Name",
+        "Department",
+        "Duration_Minutes",
+        "Cost_USD"
+      ],
+      "rows": [
+        [
+          "P001",
+          "CPT-10060",
+          "Drainage of skin abscess",
+          "Emergency",
+          "25",
+          "320"
+        ],
+        [
+          "P002",
+          "CPT-99213",
+          "Office visit established patient",
+          "Internal Medicine",
+          "15",
+          "180"
+        ],
+        [
+          "P003",
+          "CPT-45378",
+          "Diagnostic colonoscopy",
+          "Gastroenterology",
+          "45",
+          "850"
+        ],
+        [
+          "P004",
+          "",
+          "Appendectomy laparoscopic",
+          "Surgery",
+          "90",
+          "4200"
+        ],
+        [
+          "P005",
+          "CPT-93000",
+          "Electrocardiogram",
+          "Cardiology",
+          "10",
+          "120"
+        ],
+        [
+          "P006",
+          "CPT-76700",
+          "Abdominal ultrasound",
+          "Radiology",
+          "30",
+          "380"
+        ],
+        [
+          "P007",
+          "CPT-99214",
+          "Office visit established patient",
+          "Internal Medicine",
+          "25",
+          "220"
+        ],
+        [
+          "P008",
+          "CPT-10060",
+          "Drainage of skin abscess",
+          "Emergency",
+          "20",
+          "320"
+        ],
+        [
+          "P009",
+          "CPT-44970",
+          "Appendectomy laparoscopic",
+          "",
+          "85",
+          "4200"
+        ],
+        [
+          "P010",
+          "CPT-45378",
+          "Diagnostic colonoscopy",
+          "Gastroenterology",
+          "50",
+          "850"
+        ],
+        [
+          "P011",
+          "CPT-93000",
+          "Electrocardiogram",
+          "Cardiology",
+          "12",
+          "120"
+        ],
+        [
+          "P012",
+          "CPT-76700",
+          "Abdominal ultrasound",
+          "Radiology",
+          "35",
+          "380"
+        ],
+        [
+          "P013",
+          "CPT-99213",
+          "Office visit established patient",
+          "Internal Medicine",
+          "",
+          "180"
+        ],
+        [
+          "P014",
+          "CPT-10060",
+          "Drainage of skin abscess",
+          "Emergency",
+          "30",
+          "320"
+        ],
+        [
+          "P015",
+          "CPT-44970",
+          "Appendectomy laparoscopic",
+          "Surgery",
+          "95",
+          "4200"
+        ],
+        [
+          "P016",
+          "CPT-45378",
+          "Diagnostic colonoscopy",
+          "Gastroenterology",
+          "40",
+          "850"
+        ],
+        [
+          "P017",
+          "CPT-93000",
+          "Electrocardiogram",
+          "Cardiology",
+          "8",
+          "120"
+        ],
+        [
+          "P018",
+          "CPT-76700",
+          "Abdominal ultrasound",
+          "Radiology",
+          "28",
+          "380"
+        ]
+      ]
+    },
+    "questions": [
+      "What is the total duration in minutes for all Emergency department procedures?"
+    ],
+    "answers": [
+      "75"
+    ],
+    "origin_answers": [
+      "75"
+    ],
+    "ids": [
+      "nu-1234"
+    ],
+    "domain": "Healthcare",
+    "subdomain": "Medical examination reports",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Procedure_Code": {
+        "type": "Missing Value",
+        "original": "CPT-44970"
+      },
+      "9_Department": {
+        "type": "Missing Value",
+        "original": "Surgery"
+      },
+      "13_Duration_Minutes": {
+        "type": "Missing Value",
+        "original": "15"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:21:06.120974+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Healthcare-003",
+    "title": "Patient Treatment Records",
+    "table": {
+      "header": [
+        "Patient_ID",
+        "Diagnosis_Code",
+        "Treatment_Type",
+        "Days_Stay",
+        "Insurance_Status",
+        "Total_Cost"
+      ],
+      "rows": [
+        [
+          "P001",
+          "E11.9",
+          "Medication",
+          "0",
+          "Private",
+          "450"
+        ],
+        [
+          "P002",
+          "I10",
+          "Monitoring",
+          "3",
+          "Medicare",
+          "1200"
+        ],
+        [
+          "P003",
+          "J44.1",
+          "Oxygen_Therapy",
+          "5",
+          "Private",
+          "2800"
+        ],
+        [
+          "P004",
+          "E11.9",
+          "Medication",
+          "0",
+          "",
+          "520"
+        ],
+        [
+          "P005",
+          "K35.9",
+          "Surgery",
+          "7",
+          "Medicaid",
+          "8500"
+        ],
+        [
+          "P006",
+          "I10",
+          "Medication",
+          "2",
+          "Private",
+          "800"
+        ],
+        [
+          "P007",
+          "J44.1",
+          "Oxygen_Therapy",
+          "4",
+          "Medicare",
+          "2400"
+        ],
+        [
+          "P008",
+          "",
+          "Surgery",
+          "6",
+          "Private",
+          "7200"
+        ],
+        [
+          "P009",
+          "I10",
+          "Monitoring",
+          "1",
+          "Private",
+          "600"
+        ],
+        [
+          "P010",
+          "E11.9",
+          "Medication",
+          "0",
+          "Medicare",
+          "480"
+        ],
+        [
+          "P011",
+          "K35.9",
+          "Surgery",
+          "8",
+          "Private",
+          "9000"
+        ],
+        [
+          "P012",
+          "J44.1",
+          "Oxygen_Therapy",
+          "3",
+          "Medicaid",
+          "1800"
+        ],
+        [
+          "P013",
+          "I10",
+          "Medication",
+          "1",
+          "Private",
+          "550"
+        ],
+        [
+          "P014",
+          "E11.9",
+          "Insulin_Therapy",
+          "2",
+          "Medicare",
+          ""
+        ],
+        [
+          "P015",
+          "K35.9",
+          "Surgery",
+          "5",
+          "Private",
+          "6800"
+        ],
+        [
+          "P016",
+          "J44.1",
+          "Oxygen_Therapy",
+          "6",
+          "Medicare",
+          "3200"
+        ],
+        [
+          "P017",
+          "I10",
+          "Monitoring",
+          "2",
+          "Medicaid",
+          "900"
+        ],
+        [
+          "P018",
+          "E11.9",
+          "Medication",
+          "0",
+          "Private",
+          "475"
+        ]
+      ]
+    },
+    "questions": [
+      "What is the total cost for all diabetes patients who received medication treatment?"
+    ],
+    "answers": [
+      "1925"
+    ],
+    "origin_answers": [
+      "1925"
+    ],
+    "ids": [
+      "nu-1235"
+    ],
+    "domain": "Healthcare",
+    "subdomain": "Electronic medical record summaries",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Insurance_Status": {
+        "type": "Missing Value",
+        "original": "Private"
+      },
+      "8_Diagnosis_Code": {
+        "type": "Missing Value",
+        "original": "K35.9"
+      },
+      "14_Total_Cost": {
+        "type": "Missing Value",
+        "original": "1450"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:21:38.138249+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Healthcare-004",
+    "title": "Medication Prescription Records",
+    "table": {
+      "header": [
+        "Patient_ID",
+        "Medication_Name",
+        "Dosage_mg",
+        "Frequency_Daily",
+        "Prescribing_Doctor",
+        "Treatment_Duration_Days"
+      ],
+      "rows": [
+        [
+          "P001",
+          "Metformin",
+          "500",
+          "2",
+          "Dr. Smith",
+          "30"
+        ],
+        [
+          "P002",
+          "Lisinopril",
+          "10",
+          "1",
+          "Dr. Johnson",
+          "90"
+        ],
+        [
+          "P003",
+          "Atorvastatin",
+          "20",
+          "1",
+          "Dr. Williams",
+          "60"
+        ],
+        [
+          "P004",
+          "Metformin",
+          "850",
+          "2",
+          "",
+          "30"
+        ],
+        [
+          "P005",
+          "Amlodipine",
+          "5",
+          "1",
+          "Dr. Brown",
+          "90"
+        ],
+        [
+          "P006",
+          "Metformin",
+          "500",
+          "2",
+          "Dr. Davis",
+          "30"
+        ],
+        [
+          "P007",
+          "Lisinopril",
+          "5",
+          "1",
+          "Dr. Miller",
+          "90"
+        ],
+        [
+          "P008",
+          "Atorvastatin",
+          "40",
+          "1",
+          "Dr. Wilson",
+          "60"
+        ],
+        [
+          "P009",
+          "Metformin",
+          "1000",
+          "",
+          "Dr. Garcia",
+          "30"
+        ],
+        [
+          "P010",
+          "Amlodipine",
+          "10",
+          "1",
+          "Dr. Martinez",
+          "90"
+        ],
+        [
+          "P011",
+          "Lisinopril",
+          "20",
+          "1",
+          "Dr. Anderson",
+          "90"
+        ],
+        [
+          "P012",
+          "Atorvastatin",
+          "80",
+          "1",
+          "Dr. Taylor",
+          "60"
+        ],
+        [
+          "P013",
+          "Metformin",
+          "500",
+          "2",
+          "Dr. Thomas",
+          "30"
+        ],
+        [
+          "P014",
+          "Amlodipine",
+          "2.5",
+          "1",
+          "Dr. Jackson",
+          "90"
+        ],
+        [
+          "P015",
+          "",
+          "10",
+          "1",
+          "Dr. White",
+          "90"
+        ],
+        [
+          "P016",
+          "Atorvastatin",
+          "10",
+          "1",
+          "Dr. Harris",
+          "60"
+        ],
+        [
+          "P017",
+          "Metformin",
+          "750",
+          "2",
+          "Dr. Clark",
+          "30"
+        ],
+        [
+          "P018",
+          "Lisinopril",
+          "15",
+          "1",
+          "Dr. Lewis",
+          "90"
+        ]
+      ]
+    },
+    "questions": [
+      "How many patients are prescribed Metformin with twice-daily dosing?"
+    ],
+    "answers": [
+      "6"
+    ],
+    "origin_answers": [
+      "6"
+    ],
+    "ids": [
+      "nu-1236"
+    ],
+    "domain": "Healthcare",
+    "subdomain": "Medication prescription records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Prescribing_Doctor": {
+        "type": "Missing Value",
+        "original": "Dr. Rodriguez"
+      },
+      "9_Frequency_Daily": {
+        "type": "Missing Value",
+        "original": "2"
+      },
+      "15_Medication_Name": {
+        "type": "Missing Value",
+        "original": "Lisinopril"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:21:52.314609+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Healthcare-008",
+    "title": "Vaccination Records Database",
+    "table": {
+      "header": [
+        "Patient_ID",
+        "Vaccine_Type",
+        "Dose_Number",
+        "Administration_Date",
+        "Healthcare_Provider",
+        "Batch_Number"
+      ],
+      "rows": [
+        [
+          "P001",
+          "COVID-19 mRNA",
+          "1",
+          "2023-03-15",
+          "Dr. Johnson",
+          "BN4521A"
+        ],
+        [
+          "P002",
+          "Influenza",
+          "1",
+          "2023-10-12",
+          "Dr. Smith",
+          "FL7832B"
+        ],
+        [
+          "P003",
+          "COVID-19 mRNA",
+          "2",
+          "2023-04-05",
+          "Dr. Johnson",
+          "BN4521A"
+        ],
+        [
+          "P004",
+          "Hepatitis B",
+          "1",
+          "2023-05-20",
+          "",
+          "HB9901C"
+        ],
+        [
+          "P005",
+          "COVID-19 mRNA",
+          "1",
+          "2023-03-18",
+          "Dr. Martinez",
+          "BN4521A"
+        ],
+        [
+          "P006",
+          "Influenza",
+          "1",
+          "2023-10-15",
+          "Dr. Smith",
+          "FL7832B"
+        ],
+        [
+          "P007",
+          "COVID-19 mRNA",
+          "2",
+          "2023-04-08",
+          "Dr. Johnson",
+          "BN4521A"
+        ],
+        [
+          "P008",
+          "Hepatitis B",
+          "2",
+          "2023-06-15",
+          "Dr. Rodriguez",
+          "HB9901C"
+        ],
+        [
+          "P009",
+          "",
+          "1",
+          "2023-03-22",
+          "Dr. Martinez",
+          "BN4521A"
+        ],
+        [
+          "P010",
+          "Influenza",
+          "1",
+          "2023-10-18",
+          "Dr. Smith",
+          "FL7832B"
+        ],
+        [
+          "P011",
+          "COVID-19 mRNA",
+          "2",
+          "2023-04-12",
+          "Dr. Johnson",
+          "BN4521A"
+        ],
+        [
+          "P012",
+          "Hepatitis B",
+          "1",
+          "2023-05-25",
+          "Dr. Rodriguez",
+          "HB9901C"
+        ],
+        [
+          "P013",
+          "COVID-19 mRNA",
+          "1",
+          "2023-03-25",
+          "Dr. Martinez",
+          "BN4521A"
+        ],
+        [
+          "P014",
+          "Influenza",
+          "1",
+          "2023-10-22",
+          "Dr. Smith",
+          "FL7832B"
+        ],
+        [
+          "P015",
+          "COVID-19 mRNA",
+          "2",
+          "2023-04-15",
+          "Dr. Johnson",
+          ""
+        ],
+        [
+          "P016",
+          "Hepatitis B",
+          "2",
+          "2023-06-20",
+          "Dr. Rodriguez",
+          "HB9901C"
+        ],
+        [
+          "P017",
+          "COVID-19 mRNA",
+          "1",
+          "2023-03-28",
+          "Dr. Martinez",
+          "BN4521A"
+        ],
+        [
+          "P018",
+          "Influenza",
+          "1",
+          "2023-10-25",
+          "Dr. Smith",
+          "FL7832B"
+        ]
+      ]
+    },
+    "questions": [
+      "How many patients received their first dose of COVID-19 mRNA vaccine from batch BN4521A?",
+      "Which healthcare provider administered the most Hepatitis B vaccinations?"
+    ],
+    "answers": [
+      "5.0",
+      "Dr. Rodriguez"
+    ],
+    "origin_answers": [
+      "4",
+      "Dr. Rodriguez"
+    ],
+    "ids": [
+      "nu-1237",
+      "nu-1238"
+    ],
+    "domain": "Healthcare",
+    "subdomain": "Vaccination records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Healthcare_Provider": {
+        "type": "Missing Value",
+        "original": "Dr. Rodriguez"
+      },
+      "9_Vaccine_Type": {
+        "type": "Missing Value",
+        "original": "COVID-19 mRNA"
+      },
+      "15_Batch_Number": {
+        "type": "Missing Value",
+        "original": "BN4521A"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:22:55.215134+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Healthcare-009",
+    "title": "Patient Treatment Survey Results",
+    "table": {
+      "header": [
+        "Patient_ID",
+        "Age",
+        "Condition",
+        "Treatment_Type",
+        "Recovery_Days",
+        "Satisfaction_Score"
+      ],
+      "rows": [
+        [
+          "P001",
+          "45",
+          "Hypertension",
+          "Medication",
+          "14",
+          "8.5"
+        ],
+        [
+          "P002",
+          "32",
+          "Diabetes",
+          "Insulin",
+          "21",
+          "9.2"
+        ],
+        [
+          "P003",
+          "58",
+          "Arthritis",
+          "Physical Therapy",
+          "28",
+          "7.8"
+        ],
+        [
+          "P004",
+          "67",
+          "Hypertension",
+          "",
+          "12",
+          "8.1"
+        ],
+        [
+          "P005",
+          "29",
+          "Anxiety",
+          "Counseling",
+          "35",
+          "9.0"
+        ],
+        [
+          "P006",
+          "41",
+          "Diabetes",
+          "Insulin",
+          "18",
+          "8.7"
+        ],
+        [
+          "P007",
+          "55",
+          "Arthritis",
+          "Physical Therapy",
+          "31",
+          "7.5"
+        ],
+        [
+          "P008",
+          "38",
+          "Hypertension",
+          "Medication",
+          "16",
+          "8.3"
+        ],
+        [
+          "P009",
+          "72",
+          "",
+          "Surgery",
+          "45",
+          "9.1"
+        ],
+        [
+          "P010",
+          "26",
+          "Anxiety",
+          "Counseling",
+          "42",
+          "8.9"
+        ],
+        [
+          "P011",
+          "49",
+          "Diabetes",
+          "Insulin",
+          "19",
+          "8.8"
+        ],
+        [
+          "P012",
+          "63",
+          "Arthritis",
+          "Physical Therapy",
+          "29",
+          "7.6"
+        ],
+        [
+          "P013",
+          "34",
+          "Hypertension",
+          "Medication",
+          "15",
+          "8.4"
+        ],
+        [
+          "P014",
+          "51",
+          "Diabetes",
+          "",
+          "20",
+          "8.6"
+        ],
+        [
+          "P015",
+          "44",
+          "Anxiety",
+          "Counseling",
+          "38",
+          "9.3"
+        ],
+        [
+          "P016",
+          "59",
+          "Arthritis",
+          "Physical Therapy",
+          "33",
+          "7.9"
+        ],
+        [
+          "P017",
+          "36",
+          "Hypertension",
+          "Medication",
+          "13",
+          "8.2"
+        ],
+        [
+          "P018",
+          "47",
+          "Diabetes",
+          "Insulin",
+          "22",
+          "8.9"
+        ]
+      ]
+    },
+    "questions": [
+      "How many patients received medication as their treatment type?",
+      "What is the average recovery time for diabetes patients?"
+    ],
+    "answers": [
+      "5",
+      "20"
+    ],
+    "origin_answers": [
+      "5",
+      "20"
+    ],
+    "ids": [
+      "nu-1239",
+      "nu-1240"
+    ],
+    "domain": "Healthcare",
+    "subdomain": "Health survey/questionnaire results",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Treatment_Type": {
+        "type": "Missing Value",
+        "original": "Medication"
+      },
+      "9_Condition": {
+        "type": "Missing Value",
+        "original": "Heart Disease"
+      },
+      "14_Treatment_Type": {
+        "type": "Missing Value",
+        "original": "Insulin"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:23:09.379668+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Human Resources-004",
+    "title": "Monthly Payroll Disbursement Report",
+    "table": {
+      "header": [
+        "Employee_ID",
+        "Department",
+        "Position",
+        "Base_Salary",
+        "Overtime_Hours",
+        "Total_Pay"
+      ],
+      "rows": [
+        [
+          "EMP001",
+          "Engineering",
+          "Senior Developer",
+          "95000",
+          "12",
+          "97800"
+        ],
+        [
+          "EMP002",
+          "Marketing",
+          "Marketing Manager",
+          "78000",
+          "8",
+          "79200"
+        ],
+        [
+          "EMP003",
+          "Engineering",
+          "Junior Developer",
+          "65000",
+          "15",
+          "67250"
+        ],
+        [
+          "EMP004",
+          "Sales",
+          "Sales Representative",
+          "52000",
+          "20",
+          "54000"
+        ],
+        [
+          "EMP005",
+          "Engineering",
+          "",
+          "88000",
+          "10",
+          "89500"
+        ],
+        [
+          "EMP006",
+          "Finance",
+          "Financial Analyst",
+          "70000",
+          "5",
+          "70750"
+        ],
+        [
+          "EMP007",
+          "Marketing",
+          "Content Specialist",
+          "58000",
+          "6",
+          "58900"
+        ],
+        [
+          "EMP008",
+          "Engineering",
+          "Senior Developer",
+          "92000",
+          "18",
+          "94700"
+        ],
+        [
+          "EMP009",
+          "Sales",
+          "Sales Manager",
+          "85000",
+          "14",
+          "87100"
+        ],
+        [
+          "EMP010",
+          "",
+          "Data Analyst",
+          "72000",
+          "9",
+          "73350"
+        ],
+        [
+          "EMP011",
+          "Finance",
+          "Accountant",
+          "62000",
+          "4",
+          "62600"
+        ],
+        [
+          "EMP012",
+          "Engineering",
+          "Technical Lead",
+          "105000",
+          "16",
+          "107400"
+        ],
+        [
+          "EMP013",
+          "Marketing",
+          "Digital Marketing Specialist",
+          "64000",
+          "7",
+          "65050"
+        ],
+        [
+          "EMP014",
+          "Sales",
+          "Sales Representative",
+          "50000",
+          "",
+          "52500"
+        ],
+        [
+          "EMP015",
+          "Engineering",
+          "Junior Developer",
+          "63000",
+          "11",
+          "64650"
+        ],
+        [
+          "EMP016",
+          "Finance",
+          "Senior Accountant",
+          "75000",
+          "6",
+          "75900"
+        ],
+        [
+          "EMP017",
+          "Marketing",
+          "Brand Manager",
+          "82000",
+          "10",
+          "83500"
+        ],
+        [
+          "EMP018",
+          "Engineering",
+          "DevOps Engineer",
+          "89000",
+          "13",
+          "90950"
+        ]
+      ]
+    },
+    "questions": [
+      "How many employees in the Engineering department have senior-level positions?",
+      "How many employees worked more than 10 overtime hours this month?"
+    ],
+    "answers": [
+      "3",
+      "8"
+    ],
+    "origin_answers": [
+      "3",
+      "8"
+    ],
+    "ids": [
+      "nu-1241",
+      "nu-1242"
+    ],
+    "domain": "Human Resources",
+    "subdomain": "Payroll disbursement details",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "5_Position": {
+        "type": "Missing Value",
+        "original": "Software Architect"
+      },
+      "10_Department": {
+        "type": "Missing Value",
+        "original": "Engineering"
+      },
+      "14_Overtime_Hours": {
+        "type": "Missing Value",
+        "original": "25"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:42:27.175613+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Human Resources-006",
+    "title": "Employee Attendance Clock-in/out Records",
+    "table": {
+      "header": [
+        "Employee_ID",
+        "Employee_Name",
+        "Department",
+        "Clock_In_Time",
+        "Clock_Out_Time",
+        "Total_Hours"
+      ],
+      "rows": [
+        [
+          "EMP001",
+          "Sarah Johnson",
+          "Marketing",
+          "08:30",
+          "17:15",
+          "8.75"
+        ],
+        [
+          "EMP002",
+          "Michael Chen",
+          "Engineering",
+          "09:00",
+          "18:00",
+          "9.0"
+        ],
+        [
+          "EMP003",
+          "Lisa Rodriguez",
+          "HR",
+          "08:45",
+          "17:30",
+          "8.75"
+        ],
+        [
+          "EMP004",
+          "David Kim",
+          "Engineering",
+          "08:15",
+          "",
+          "8.5"
+        ],
+        [
+          "EMP005",
+          "Emma Wilson",
+          "Finance",
+          "09:15",
+          "18:00",
+          "8.75"
+        ],
+        [
+          "EMP006",
+          "James Brown",
+          "Marketing",
+          "08:30",
+          "17:00",
+          "8.5"
+        ],
+        [
+          "EMP007",
+          "Anna Davis",
+          "Engineering",
+          "08:45",
+          "17:45",
+          "9.0"
+        ],
+        [
+          "EMP008",
+          "Robert Taylor",
+          "HR",
+          "09:00",
+          "17:45",
+          "8.75"
+        ],
+        [
+          "EMP009",
+          "Maria Garcia",
+          "",
+          "08:30",
+          "17:15",
+          "8.75"
+        ],
+        [
+          "EMP010",
+          "Thomas Anderson",
+          "Finance",
+          "08:00",
+          "17:00",
+          "9.0"
+        ],
+        [
+          "EMP011",
+          "Jennifer Lee",
+          "Marketing",
+          "09:00",
+          "18:15",
+          "9.25"
+        ],
+        [
+          "EMP012",
+          "Kevin Martinez",
+          "Engineering",
+          "08:30",
+          "17:30",
+          "9.0"
+        ],
+        [
+          "EMP013",
+          "Rachel White",
+          "HR",
+          "08:45",
+          "17:30",
+          "8.75"
+        ],
+        [
+          "EMP014",
+          "Daniel Johnson",
+          "Finance",
+          "08:15",
+          "17:00",
+          "8.75"
+        ],
+        [
+          "EMP015",
+          "Sophie Turner",
+          "Marketing",
+          "09:15",
+          "18:00",
+          "8.75"
+        ],
+        [
+          "EMP016",
+          "Alex Rodriguez",
+          "Engineering",
+          "08:00",
+          "17:15",
+          ""
+        ],
+        [
+          "EMP017",
+          "Michelle Clark",
+          "HR",
+          "08:30",
+          "17:15",
+          "8.75"
+        ],
+        [
+          "EMP018",
+          "Christopher Lee",
+          "Finance",
+          "09:00",
+          "18:30",
+          "9.5"
+        ]
+      ]
+    },
+    "questions": [
+      "How many employees from the Engineering department worked more than 8.5 hours?"
+    ],
+    "answers": [
+      "4"
+    ],
+    "origin_answers": [
+      "4"
+    ],
+    "ids": [
+      "nu-1243"
+    ],
+    "domain": "Human Resources",
+    "subdomain": "Attendance clock-in/out records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Clock_Out_Time": {
+        "type": "Missing Value",
+        "original": "17:00"
+      },
+      "9_Department": {
+        "type": "Missing Value",
+        "original": "Marketing"
+      },
+      "16_Total_Hours": {
+        "type": "Missing Value",
+        "original": "9.25"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:42:58.095442+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Retail E-commerce-002",
+    "title": "E-commerce Product Reviews Dataset",
+    "table": {
+      "header": [
+        "Product_ID",
+        "Product_Name",
+        "Category",
+        "Rating",
+        "Review_Count",
+        "Price_USD"
+      ],
+      "rows": [
+        [
+          "P001",
+          "Wireless Bluetooth Headphones",
+          "Electronics",
+          "4.5",
+          "1250",
+          "89.99"
+        ],
+        [
+          "P002",
+          "Organic Cotton T-Shirt",
+          "Clothing",
+          "4.2",
+          "340",
+          "24.99"
+        ],
+        [
+          "P003",
+          "Smart Fitness Watch",
+          "Electronics",
+          "4.7",
+          "2100",
+          "199.99"
+        ],
+        [
+          "P004",
+          "Yoga Mat Premium",
+          "Sports",
+          "",
+          "680",
+          "45.99"
+        ],
+        [
+          "P005",
+          "Coffee Maker Deluxe",
+          "Home & Kitchen",
+          "4.1",
+          "890",
+          "129.99"
+        ],
+        [
+          "P006",
+          "Running Shoes Pro",
+          "Sports",
+          "4.6",
+          "1560",
+          "119.99"
+        ],
+        [
+          "P007",
+          "Wireless Phone Charger",
+          "Electronics",
+          "4.3",
+          "420",
+          "29.99"
+        ],
+        [
+          "P008",
+          "Ceramic Dinner Set",
+          "",
+          "4.4",
+          "310",
+          "79.99"
+        ],
+        [
+          "P009",
+          "Bluetooth Speaker Portable",
+          "Electronics",
+          "4.8",
+          "1890",
+          "69.99"
+        ],
+        [
+          "P010",
+          "Memory Foam Pillow",
+          "Home & Kitchen",
+          "4.0",
+          "520",
+          "39.99"
+        ],
+        [
+          "P011",
+          "Gaming Mouse RGB",
+          "Electronics",
+          "4.5",
+          "780",
+          "49.99"
+        ],
+        [
+          "P012",
+          "Stainless Steel Water Bottle",
+          "Sports",
+          "4.3",
+          "",
+          "19.99"
+        ],
+        [
+          "P013",
+          "LED Desk Lamp",
+          "Home & Kitchen",
+          "4.2",
+          "290",
+          "34.99"
+        ],
+        [
+          "P014",
+          "Wireless Earbuds Pro",
+          "Electronics",
+          "4.6",
+          "1420",
+          "149.99"
+        ],
+        [
+          "P015",
+          "Bamboo Cutting Board",
+          "Home & Kitchen",
+          "4.1",
+          "180",
+          "22.99"
+        ],
+        [
+          "P016",
+          "Fitness Resistance Bands",
+          "Sports",
+          "4.4",
+          "650",
+          "16.99"
+        ],
+        [
+          "P017",
+          "Smart Home Hub",
+          "Electronics",
+          "4.2",
+          "340",
+          "99.99"
+        ],
+        [
+          "P018",
+          "Organic Face Cream",
+          "Beauty",
+          "4.3",
+          "240",
+          "32.99"
+        ]
+      ]
+    },
+    "questions": [
+      "What is the total number of reviews for all Home & Kitchen products?",
+      "How many Electronics products are priced below $100?"
+    ],
+    "answers": [
+      "2190.0",
+      "5"
+    ],
+    "origin_answers": [
+      "1380",
+      "5"
+    ],
+    "ids": [
+      "nu-1244",
+      "nu-1245"
+    ],
+    "domain": "Retail E-commerce",
+    "subdomain": "User reviews/ratings",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Rating": {
+        "type": "Missing Value",
+        "original": "4.2"
+      },
+      "8_Category": {
+        "type": "Missing Value",
+        "original": "Home & Kitchen"
+      },
+      "12_Review_Count": {
+        "type": "Missing Value",
+        "original": "440"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:28:59.108230+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Retail E-commerce-003",
+    "title": "Product Inventory List",
+    "table": {
+      "header": [
+        "Product_ID",
+        "Product_Name",
+        "Category",
+        "Brand",
+        "Stock_Quantity",
+        "Unit_Price"
+      ],
+      "rows": [
+        [
+          "P001",
+          "iPhone 14 Pro",
+          "Electronics",
+          "Apple",
+          "45",
+          "999.99"
+        ],
+        [
+          "P002",
+          "Samsung Galaxy S23",
+          "Electronics",
+          "Samsung",
+          "32",
+          "899.99"
+        ],
+        [
+          "P003",
+          "MacBook Air M2",
+          "Electronics",
+          "Apple",
+          "18",
+          "1199.99"
+        ],
+        [
+          "P004",
+          "Dell XPS 13",
+          "Electronics",
+          "Dell",
+          "25",
+          "1099.99"
+        ],
+        [
+          "P005",
+          "Nike Air Max 270",
+          "Footwear",
+          "",
+          "67",
+          "129.99"
+        ],
+        [
+          "P006",
+          "Adidas Ultraboost 22",
+          "Footwear",
+          "Adidas",
+          "43",
+          "179.99"
+        ],
+        [
+          "P007",
+          "Levi's 501 Jeans",
+          "Clothing",
+          "Levi's",
+          "89",
+          "79.99"
+        ],
+        [
+          "P008",
+          "H&M Cotton T-Shirt",
+          "Clothing",
+          "H&M",
+          "156",
+          "19.99"
+        ],
+        [
+          "P009",
+          "Zara Wool Coat",
+          "Clothing",
+          "Zara",
+          "34",
+          "149.99"
+        ],
+        [
+          "P010",
+          "Nike Revolution 6",
+          "Footwear",
+          "Nike",
+          "",
+          "69.99"
+        ],
+        [
+          "P011",
+          "Canon EOS R6",
+          "Electronics",
+          "Canon",
+          "12",
+          "2499.99"
+        ],
+        [
+          "P012",
+          "Sony WH-1000XM4",
+          "Electronics",
+          "Sony",
+          "28",
+          "349.99"
+        ],
+        [
+          "P013",
+          "Apple Watch Series 8",
+          "Electronics",
+          "Apple",
+          "41",
+          "399.99"
+        ],
+        [
+          "P014",
+          "Fitbit Charge 5",
+          "Electronics",
+          "Fitbit",
+          "55",
+          "149.99"
+        ],
+        [
+          "P015",
+          "Puma RS-X Sneakers",
+          "Footwear",
+          "Puma",
+          "38",
+          "109.99"
+        ],
+        [
+          "P016",
+          "Uniqlo Heattech Shirt",
+          "",
+          "Uniqlo",
+          "92",
+          "29.99"
+        ],
+        [
+          "P017",
+          "North Face Jacket",
+          "Clothing",
+          "North Face",
+          "22",
+          "299.99"
+        ],
+        [
+          "P018",
+          "Converse Chuck Taylor",
+          "Footwear",
+          "Converse",
+          "71",
+          "59.99"
+        ]
+      ]
+    },
+    "questions": [
+      "How many different brands sell footwear products?"
+    ],
+    "answers": [
+      "4.0"
+    ],
+    "origin_answers": [
+      "5"
+    ],
+    "ids": [
+      "nu-1246"
+    ],
+    "domain": "Retail E-commerce",
+    "subdomain": "Product inventory lists",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "5_Brand": {
+        "type": "Missing Value",
+        "original": "Nike"
+      },
+      "10_Stock_Quantity": {
+        "type": "Missing Value",
+        "original": "52"
+      },
+      "16_Category": {
+        "type": "Missing Value",
+        "original": "Clothing"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:29:14.521857+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Retail E-commerce-004",
+    "title": "Return & Exchange Records",
+    "table": {
+      "header": [
+        "Order_ID",
+        "Product_Category",
+        "Return_Reason",
+        "Refund_Amount",
+        "Processing_Status",
+        "Customer_Tier"
+      ],
+      "rows": [
+        [
+          "ORD-2024-001",
+          "Electronics",
+          "Defective",
+          "299.99",
+          "Completed",
+          "Premium"
+        ],
+        [
+          "ORD-2024-002",
+          "Clothing",
+          "Wrong Size",
+          "89.50",
+          "Completed",
+          "Standard"
+        ],
+        [
+          "ORD-2024-003",
+          "Electronics",
+          "Not as Described",
+          "459.00",
+          "Processing",
+          "Premium"
+        ],
+        [
+          "ORD-2024-004",
+          "Home & Garden",
+          "",
+          "125.75",
+          "Completed",
+          "Standard"
+        ],
+        [
+          "ORD-2024-005",
+          "Electronics",
+          "Defective",
+          "199.99",
+          "Completed",
+          "Premium"
+        ],
+        [
+          "ORD-2024-006",
+          "Clothing",
+          "Wrong Color",
+          "65.00",
+          "Completed",
+          "Standard"
+        ],
+        [
+          "ORD-2024-007",
+          "Books",
+          "Damaged",
+          "24.99",
+          "Completed",
+          "Standard"
+        ],
+        [
+          "ORD-2024-008",
+          "Electronics",
+          "Defective",
+          "799.99",
+          "Processing",
+          "Premium"
+        ],
+        [
+          "ORD-2024-009",
+          "Home & Garden",
+          "Not as Described",
+          "89.99",
+          "Completed",
+          "Standard"
+        ],
+        [
+          "ORD-2024-010",
+          "Clothing",
+          "Wrong Size",
+          "120.00",
+          "Completed",
+          "Premium"
+        ],
+        [
+          "ORD-2024-011",
+          "Electronics",
+          "Defective",
+          "349.99",
+          "Completed",
+          "Premium"
+        ],
+        [
+          "ORD-2024-012",
+          "",
+          "Wrong Size",
+          "75.50",
+          "Completed",
+          "Standard"
+        ],
+        [
+          "ORD-2024-013",
+          "Books",
+          "Damaged",
+          "19.99",
+          "Completed",
+          "Standard"
+        ],
+        [
+          "ORD-2024-014",
+          "Home & Garden",
+          "Not as Described",
+          "155.00",
+          "Processing",
+          "Standard"
+        ],
+        [
+          "ORD-2024-015",
+          "Electronics",
+          "Defective",
+          "229.99",
+          "Completed",
+          ""
+        ],
+        [
+          "ORD-2024-016",
+          "Clothing",
+          "Wrong Color",
+          "95.00",
+          "Completed",
+          "Premium"
+        ],
+        [
+          "ORD-2024-017",
+          "Books",
+          "Damaged",
+          "32.50",
+          "Completed",
+          "Standard"
+        ],
+        [
+          "ORD-2024-018",
+          "Electronics",
+          "Not as Described",
+          "599.99",
+          "Processing",
+          "Premium"
+        ]
+      ]
+    },
+    "questions": [
+      "How many returns from Premium tier customers are still processing?"
+    ],
+    "answers": [
+      "3.0"
+    ],
+    "origin_answers": [
+      "2"
+    ],
+    "ids": [
+      "nu-1247"
+    ],
+    "domain": "Retail E-commerce",
+    "subdomain": "Return & exchange records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Return_Reason": {
+        "type": "Missing Value",
+        "original": "Not as Described"
+      },
+      "12_Product_Category": {
+        "type": "Missing Value",
+        "original": "Clothing"
+      },
+      "15_Customer_Tier": {
+        "type": "Missing Value",
+        "original": "Premium"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:29:30.087725+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Retail E-commerce-006",
+    "title": "Customer Shopping Behavior Logs",
+    "table": {
+      "header": [
+        "Customer_ID",
+        "Product_Category",
+        "Brand",
+        "Purchase_Amount",
+        "Payment_Method",
+        "Session_Duration"
+      ],
+      "rows": [
+        [
+          "CUST001",
+          "Electronics",
+          "Samsung",
+          "899.99",
+          "Credit Card",
+          "45"
+        ],
+        [
+          "CUST002",
+          "Clothing",
+          "Nike",
+          "129.99",
+          "PayPal",
+          "23"
+        ],
+        [
+          "CUST003",
+          "Electronics",
+          "Apple",
+          "1299.99",
+          "Credit Card",
+          "67"
+        ],
+        [
+          "CUST004",
+          "Home & Garden",
+          "IKEA",
+          "249.99",
+          "",
+          "34"
+        ],
+        [
+          "CUST005",
+          "Clothing",
+          "Adidas",
+          "89.99",
+          "Debit Card",
+          "18"
+        ],
+        [
+          "CUST006",
+          "Electronics",
+          "Sony",
+          "599.99",
+          "Credit Card",
+          "52"
+        ],
+        [
+          "CUST007",
+          "Books",
+          "Penguin",
+          "24.99",
+          "PayPal",
+          "12"
+        ],
+        [
+          "CUST008",
+          "",
+          "Apple",
+          "799.99",
+          "Credit Card",
+          "41"
+        ],
+        [
+          "CUST009",
+          "Clothing",
+          "H&M",
+          "59.99",
+          "PayPal",
+          "15"
+        ],
+        [
+          "CUST010",
+          "Electronics",
+          "LG",
+          "449.99",
+          "Debit Card",
+          "38"
+        ],
+        [
+          "CUST011",
+          "Home & Garden",
+          "Wayfair",
+          "179.99",
+          "Credit Card",
+          "29"
+        ],
+        [
+          "CUST012",
+          "Books",
+          "Harper Collins",
+          "19.99",
+          "PayPal",
+          "8"
+        ],
+        [
+          "CUST013",
+          "Clothing",
+          "Zara",
+          "119.99",
+          "Credit Card",
+          ""
+        ],
+        [
+          "CUST014",
+          "Electronics",
+          "Dell",
+          "999.99",
+          "Debit Card",
+          "55"
+        ],
+        [
+          "CUST015",
+          "Home & Garden",
+          "Home Depot",
+          "89.99",
+          "Cash",
+          "22"
+        ],
+        [
+          "CUST016",
+          "Books",
+          "Random House",
+          "29.99",
+          "PayPal",
+          "14"
+        ],
+        [
+          "CUST017",
+          "Clothing",
+          "Uniqlo",
+          "79.99",
+          "Credit Card",
+          "19"
+        ],
+        [
+          "CUST018",
+          "Electronics",
+          "HP",
+          "699.99",
+          "Debit Card",
+          "43"
+        ]
+      ]
+    },
+    "questions": [
+      "How many customers had a session duration longer than 30 minutes?"
+    ],
+    "answers": [
+      "6"
+    ],
+    "origin_answers": [
+      "6"
+    ],
+    "ids": [
+      "nu-1248"
+    ],
+    "domain": "Retail E-commerce",
+    "subdomain": "Customer shopping behavior logs",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Payment_Method": {
+        "type": "Missing Value",
+        "original": "Credit Card"
+      },
+      "8_Product_Category": {
+        "type": "Missing Value",
+        "original": "Electronics"
+      },
+      "13_Session_Duration": {
+        "type": "Missing Value",
+        "original": "26"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:29:59.116353+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Retail E-commerce-007",
+    "title": "Warehouse Shipping Orders",
+    "table": {
+      "header": [
+        "Order_ID",
+        "Product_Category",
+        "Shipping_Method",
+        "Destination_Zone",
+        "Delivery_Days",
+        "Shipping_Cost"
+      ],
+      "rows": [
+        [
+          "ORD-2024-001",
+          "Electronics",
+          "Express",
+          "Zone_A",
+          "2",
+          "15.99"
+        ],
+        [
+          "ORD-2024-002",
+          "Clothing",
+          "Standard",
+          "Zone_B",
+          "5",
+          "8.50"
+        ],
+        [
+          "ORD-2024-003",
+          "Electronics",
+          "Express",
+          "Zone_A",
+          "2",
+          "15.99"
+        ],
+        [
+          "ORD-2024-004",
+          "Home_Garden",
+          "",
+          "Zone_C",
+          "7",
+          "12.75"
+        ],
+        [
+          "ORD-2024-005",
+          "Electronics",
+          "Overnight",
+          "Zone_A",
+          "1",
+          "25.99"
+        ],
+        [
+          "ORD-2024-006",
+          "Clothing",
+          "Standard",
+          "Zone_B",
+          "5",
+          "8.50"
+        ],
+        [
+          "ORD-2024-007",
+          "Books",
+          "Standard",
+          "Zone_D",
+          "6",
+          "9.99"
+        ],
+        [
+          "ORD-2024-008",
+          "Electronics",
+          "Express",
+          "Zone_A",
+          "2",
+          "15.99"
+        ],
+        [
+          "ORD-2024-009",
+          "Home_Garden",
+          "Standard",
+          "Zone_C",
+          "",
+          "12.75"
+        ],
+        [
+          "ORD-2024-010",
+          "Clothing",
+          "Express",
+          "Zone_B",
+          "3",
+          "13.25"
+        ],
+        [
+          "ORD-2024-011",
+          "Books",
+          "Standard",
+          "Zone_D",
+          "6",
+          "9.99"
+        ],
+        [
+          "ORD-2024-012",
+          "Electronics",
+          "Overnight",
+          "Zone_A",
+          "1",
+          "25.99"
+        ],
+        [
+          "ORD-2024-013",
+          "",
+          "Standard",
+          "Zone_C",
+          "7",
+          "12.75"
+        ],
+        [
+          "ORD-2024-014",
+          "Clothing",
+          "Express",
+          "Zone_B",
+          "3",
+          "13.25"
+        ],
+        [
+          "ORD-2024-015",
+          "Books",
+          "Standard",
+          "Zone_D",
+          "6",
+          "9.99"
+        ],
+        [
+          "ORD-2024-016",
+          "Electronics",
+          "Express",
+          "Zone_A",
+          "2",
+          "15.99"
+        ],
+        [
+          "ORD-2024-017",
+          "Home_Garden",
+          "Standard",
+          "Zone_C",
+          "7",
+          "12.75"
+        ],
+        [
+          "ORD-2024-018",
+          "Clothing",
+          "Standard",
+          "Zone_B",
+          "5",
+          "8.50"
+        ]
+      ]
+    },
+    "questions": [
+      "How many orders use Standard shipping method?",
+      "How many different product categories are being shipped?"
+    ],
+    "answers": [
+      "10.0",
+      "4"
+    ],
+    "origin_answers": [
+      "9",
+      "4"
+    ],
+    "ids": [
+      "nu-1249",
+      "nu-1250"
+    ],
+    "domain": "Retail E-commerce",
+    "subdomain": "Warehouse shipping orders",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Shipping_Method": {
+        "type": "Missing Value",
+        "original": "Standard"
+      },
+      "9_Delivery_Days": {
+        "type": "Missing Value",
+        "original": "7"
+      },
+      "13_Product_Category": {
+        "type": "Missing Value",
+        "original": "Home_Garden"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:30:16.002628+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Scientific Research and Experimental Data-001",
+    "title": "Drug Efficacy Experiment Results",
+    "table": {
+      "header": [
+        "Experiment_ID",
+        "Treatment_Group",
+        "Dosage_mg",
+        "Response_Time_hrs",
+        "Efficacy_Score",
+        "Lab_Technician"
+      ],
+      "rows": [
+        [
+          "EXP-001",
+          "Control",
+          "0",
+          "24",
+          "2.1",
+          "Johnson"
+        ],
+        [
+          "EXP-002",
+          "Treatment_A",
+          "50",
+          "18",
+          "4.3",
+          "Smith"
+        ],
+        [
+          "EXP-003",
+          "Treatment_B",
+          "100",
+          "12",
+          "6.7",
+          "Wilson"
+        ],
+        [
+          "EXP-004",
+          "Treatment_A",
+          "",
+          "16",
+          "4.8",
+          "Johnson"
+        ],
+        [
+          "EXP-005",
+          "Control",
+          "0",
+          "26",
+          "1.9",
+          "Davis"
+        ],
+        [
+          "EXP-006",
+          "Treatment_C",
+          "150",
+          "8",
+          "8.2",
+          "Smith"
+        ],
+        [
+          "EXP-007",
+          "Treatment_B",
+          "100",
+          "14",
+          "6.1",
+          "Wilson"
+        ],
+        [
+          "EXP-008",
+          "Treatment_A",
+          "50",
+          "20",
+          "3.9",
+          "Davis"
+        ],
+        [
+          "EXP-009",
+          "Treatment_C",
+          "150",
+          "10",
+          "7.8",
+          "Johnson"
+        ],
+        [
+          "EXP-010",
+          "",
+          "75",
+          "15",
+          "5.4",
+          "Smith"
+        ],
+        [
+          "EXP-011",
+          "Control",
+          "0",
+          "28",
+          "2.3",
+          "Wilson"
+        ],
+        [
+          "EXP-012",
+          "Treatment_B",
+          "100",
+          "11",
+          "6.9",
+          "Davis"
+        ],
+        [
+          "EXP-013",
+          "Treatment_A",
+          "50",
+          "17",
+          "4.1",
+          "Johnson"
+        ],
+        [
+          "EXP-014",
+          "Treatment_C",
+          "150",
+          "9",
+          "8.0",
+          "Smith"
+        ],
+        [
+          "EXP-015",
+          "Treatment_B",
+          "100",
+          "",
+          "6.4",
+          "Wilson"
+        ],
+        [
+          "EXP-016",
+          "Control",
+          "0",
+          "25",
+          "2.0",
+          "Davis"
+        ],
+        [
+          "EXP-017",
+          "Treatment_A",
+          "50",
+          "19",
+          "4.5",
+          "Johnson"
+        ],
+        [
+          "EXP-018",
+          "Treatment_C",
+          "150",
+          "7",
+          "8.5",
+          "Smith"
+        ]
+      ]
+    },
+    "questions": [
+      "How many experiments used a 50mg dosage of Treatment_A?",
+      "What is the average efficacy score for experiments with dosages between 70-80mg?"
+    ],
+    "answers": [
+      "5.0",
+      "5.4"
+    ],
+    "origin_answers": [
+      "4",
+      "5.4"
+    ],
+    "ids": [
+      "nu-1251",
+      "nu-1252"
+    ],
+    "domain": "Scientific Research and Experimental Data",
+    "subdomain": "Experiment logbooks",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Dosage_mg": {
+        "type": "Missing Value",
+        "original": "50"
+      },
+      "10_Treatment_Group": {
+        "type": "Missing Value",
+        "original": "Treatment_A"
+      },
+      "15_Response_Time_hrs": {
+        "type": "Missing Value",
+        "original": "13"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:39:10.093525+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Scientific Research and Experimental Data-004",
+    "title": "Clinical Trial Response Data Analysis",
+    "table": {
+      "header": [
+        "Study_ID",
+        "Treatment_Group",
+        "Dosage_mg",
+        "Response_Rate",
+        "Duration_Days",
+        "Outcome_Status"
+      ],
+      "rows": [
+        [
+          "ST001",
+          "Control",
+          "0",
+          "12.5",
+          "28",
+          "Stable"
+        ],
+        [
+          "ST002",
+          "Experimental_A",
+          "50",
+          "34.2",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST003",
+          "Experimental_B",
+          "100",
+          "45.8",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST004",
+          "Control",
+          "0",
+          "8.9",
+          "28",
+          "Stable"
+        ],
+        [
+          "ST005",
+          "Experimental_A",
+          "",
+          "38.1",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST006",
+          "Experimental_B",
+          "100",
+          "52.3",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST007",
+          "Control",
+          "0",
+          "15.2",
+          "28",
+          "Stable"
+        ],
+        [
+          "ST008",
+          "Experimental_A",
+          "50",
+          "29.7",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST009",
+          "Experimental_B",
+          "100",
+          "48.9",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST010",
+          "Control",
+          "0",
+          "11.8",
+          "28",
+          "Stable"
+        ],
+        [
+          "ST011",
+          "Experimental_A",
+          "50",
+          "41.5",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST012",
+          "",
+          "100",
+          "44.2",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST013",
+          "Control",
+          "0",
+          "9.4",
+          "28",
+          "Stable"
+        ],
+        [
+          "ST014",
+          "Experimental_A",
+          "50",
+          "36.8",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST015",
+          "Experimental_B",
+          "100",
+          "49.1",
+          "28",
+          "Improved"
+        ],
+        [
+          "ST016",
+          "Control",
+          "0",
+          "13.7",
+          "28",
+          "Stable"
+        ],
+        [
+          "ST017",
+          "Experimental_A",
+          "50",
+          "33.9",
+          "",
+          "Improved"
+        ],
+        [
+          "ST018",
+          "Experimental_B",
+          "100",
+          "46.5",
+          "28",
+          "Improved"
+        ]
+      ]
+    },
+    "questions": [
+      "How many subjects in the Experimental_A group showed improved outcomes?",
+      "What is the total number of subjects who received 100mg dosage?",
+      "What is the average response rate for all subjects with 28-day treatment duration?"
+    ],
+    "answers": [
+      "6",
+      "6",
+      "32.0"
+    ],
+    "origin_answers": [
+      "6",
+      "6",
+      "32.4"
+    ],
+    "ids": [
+      "nu-1253",
+      "nu-1254",
+      "nu-1255"
+    ],
+    "domain": "Scientific Research and Experimental Data",
+    "subdomain": "Data analysis report results",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "5_Dosage_mg": {
+        "type": "Missing Value",
+        "original": "50"
+      },
+      "12_Treatment_Group": {
+        "type": "Missing Value",
+        "original": "Experimental_B"
+      },
+      "17_Duration_Days": {
+        "type": "Missing Value",
+        "original": "28"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:39:58.885907+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Scientific Research and Experimental Data-005",
+    "title": "Clinical Trial Response Rate Survey Results",
+    "table": {
+      "header": [
+        "Study_ID",
+        "Treatment_Group",
+        "Age_Group",
+        "Response_Rate",
+        "Sample_Size",
+        "Study_Phase"
+      ],
+      "rows": [
+        [
+          "ST001",
+          "Placebo",
+          "18-35",
+          "0.12",
+          "150",
+          "Phase II"
+        ],
+        [
+          "ST002",
+          "Drug_A",
+          "36-50",
+          "0.68",
+          "200",
+          "Phase III"
+        ],
+        [
+          "ST003",
+          "Drug_B",
+          "51-65",
+          "0.45",
+          "180",
+          "Phase II"
+        ],
+        [
+          "ST004",
+          "Placebo",
+          "18-35",
+          "0.15",
+          "160",
+          "Phase I"
+        ],
+        [
+          "ST005",
+          "Drug_A",
+          "",
+          "0.72",
+          "220",
+          "Phase III"
+        ],
+        [
+          "ST006",
+          "Drug_B",
+          "36-50",
+          "0.41",
+          "175",
+          "Phase II"
+        ],
+        [
+          "ST007",
+          "Placebo",
+          "51-65",
+          "0.18",
+          "140",
+          "Phase I"
+        ],
+        [
+          "ST008",
+          "Drug_A",
+          "18-35",
+          "0.65",
+          "190",
+          "Phase III"
+        ],
+        [
+          "ST009",
+          "",
+          "36-50",
+          "0.38",
+          "165",
+          "Phase II"
+        ],
+        [
+          "ST010",
+          "Placebo",
+          "51-65",
+          "0.14",
+          "155",
+          "Phase I"
+        ],
+        [
+          "ST011",
+          "Drug_B",
+          "18-35",
+          "0.52",
+          "185",
+          "Phase II"
+        ],
+        [
+          "ST012",
+          "Drug_A",
+          "36-50",
+          "0.69",
+          "210",
+          ""
+        ],
+        [
+          "ST013",
+          "Placebo",
+          "18-35",
+          "0.16",
+          "145",
+          "Phase I"
+        ],
+        [
+          "ST014",
+          "Drug_B",
+          "51-65",
+          "0.48",
+          "170",
+          "Phase II"
+        ],
+        [
+          "ST015",
+          "Drug_A",
+          "36-50",
+          "0.71",
+          "205",
+          "Phase III"
+        ],
+        [
+          "ST016",
+          "Placebo",
+          "51-65",
+          "0.13",
+          "135",
+          "Phase I"
+        ],
+        [
+          "ST017",
+          "Drug_B",
+          "18-35",
+          "0.49",
+          "180",
+          "Phase II"
+        ],
+        [
+          "ST018",
+          "Drug_A",
+          "51-65",
+          "0.66",
+          "195",
+          "Phase III"
+        ]
+      ]
+    },
+    "questions": [
+      "How many studies tested Drug_A in the 36-50 age group?",
+      "What is the total sample size for all Phase III studies?"
+    ],
+    "answers": [
+      "3",
+      "1220.0"
+    ],
+    "origin_answers": [
+      "3",
+      "825"
+    ],
+    "ids": [
+      "nu-1256",
+      "nu-1257"
+    ],
+    "domain": "Scientific Research and Experimental Data",
+    "subdomain": "Research survey results",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "5_Age_Group": {
+        "type": "Missing Value",
+        "original": "36-50"
+      },
+      "9_Treatment_Group": {
+        "type": "Missing Value",
+        "original": "Drug_B"
+      },
+      "12_Study_Phase": {
+        "type": "Missing Value",
+        "original": "Phase III"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:40:14.092571+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Scientific Research and Experimental Data-009",
+    "title": "Multi-variable Plant Growth Experiment Results",
+    "table": {
+      "header": [
+        "Experiment_ID",
+        "Treatment_Group",
+        "Temperature_C",
+        "pH_Level",
+        "Growth_Rate_mm",
+        "Success_Status"
+      ],
+      "rows": [
+        [
+          "EXP001",
+          "Control",
+          "25.0",
+          "7.2",
+          "12.5",
+          "Success"
+        ],
+        [
+          "EXP002",
+          "Treatment_A",
+          "30.0",
+          "6.8",
+          "18.3",
+          "Success"
+        ],
+        [
+          "EXP003",
+          "Treatment_B",
+          "35.0",
+          "7.5",
+          "22.1",
+          "Success"
+        ],
+        [
+          "EXP004",
+          "Control",
+          "25.0",
+          "7.1",
+          "11.8",
+          "Success"
+        ],
+        [
+          "EXP005",
+          "Treatment_A",
+          "",
+          "6.9",
+          "19.2",
+          "Success"
+        ],
+        [
+          "EXP006",
+          "Treatment_B",
+          "35.0",
+          "7.4",
+          "21.7",
+          "Success"
+        ],
+        [
+          "EXP007",
+          "Control",
+          "25.0",
+          "7.0",
+          "13.1",
+          "Success"
+        ],
+        [
+          "EXP008",
+          "Treatment_A",
+          "30.0",
+          "6.7",
+          "17.9",
+          "Success"
+        ],
+        [
+          "EXP009",
+          "Treatment_B",
+          "35.0",
+          "7.6",
+          "23.4",
+          "Success"
+        ],
+        [
+          "EXP010",
+          "Control",
+          "25.0",
+          "7.3",
+          "12.9",
+          "Success"
+        ],
+        [
+          "EXP011",
+          "",
+          "30.0",
+          "6.8",
+          "18.7",
+          "Success"
+        ],
+        [
+          "EXP012",
+          "Treatment_B",
+          "35.0",
+          "7.2",
+          "20.8",
+          "Success"
+        ],
+        [
+          "EXP013",
+          "Control",
+          "25.0",
+          "7.1",
+          "12.2",
+          "Success"
+        ],
+        [
+          "EXP014",
+          "Treatment_A",
+          "30.0",
+          "6.9",
+          "18.1",
+          "Success"
+        ],
+        [
+          "EXP015",
+          "Treatment_B",
+          "35.0",
+          "",
+          "22.6",
+          "Success"
+        ],
+        [
+          "EXP016",
+          "Control",
+          "25.0",
+          "7.0",
+          "13.5",
+          "Success"
+        ],
+        [
+          "EXP017",
+          "Treatment_A",
+          "30.0",
+          "6.8",
+          "17.4",
+          "Success"
+        ],
+        [
+          "EXP018",
+          "Treatment_B",
+          "35.0",
+          "7.5",
+          "21.9",
+          "Success"
+        ]
+      ]
+    },
+    "questions": [
+      "How many experiments were conducted at 30 degrees Celsius?"
+    ],
+    "answers": [
+      "7.0"
+    ],
+    "origin_answers": [
+      "6"
+    ],
+    "ids": [
+      "nu-1258"
+    ],
+    "domain": "Scientific Research and Experimental Data",
+    "subdomain": "Multi-variable comparative experiment data",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "5_Temperature_C": {
+        "type": "Missing Value",
+        "original": "30.0"
+      },
+      "11_Treatment_Group": {
+        "type": "Missing Value",
+        "original": "Treatment_A"
+      },
+      "15_pH_Level": {
+        "type": "Missing Value",
+        "original": "7.3"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:41:16.019672+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Transportation-004",
+    "title": "Urban Parking Records",
+    "table": {
+      "header": [
+        "Parking_ID",
+        "Zone_Type",
+        "Duration_Hours",
+        "Fee_USD",
+        "Vehicle_Type",
+        "Payment_Method"
+      ],
+      "rows": [
+        [
+          "P001",
+          "Downtown",
+          "2.5",
+          "12.50",
+          "Sedan",
+          "Credit Card"
+        ],
+        [
+          "P002",
+          "Residential",
+          "4.0",
+          "8.00",
+          "SUV",
+          "Mobile App"
+        ],
+        [
+          "P003",
+          "Commercial",
+          "1.5",
+          "9.00",
+          "Truck",
+          "Cash"
+        ],
+        [
+          "P004",
+          "Downtown",
+          "3.0",
+          "15.00",
+          "",
+          "Credit Card"
+        ],
+        [
+          "P005",
+          "Airport",
+          "8.0",
+          "32.00",
+          "Sedan",
+          "Credit Card"
+        ],
+        [
+          "P006",
+          "Residential",
+          "2.0",
+          "4.00",
+          "Motorcycle",
+          "Mobile App"
+        ],
+        [
+          "P007",
+          "Commercial",
+          "6.0",
+          "36.00",
+          "Truck",
+          "Cash"
+        ],
+        [
+          "P008",
+          "Downtown",
+          "1.0",
+          "5.00",
+          "Sedan",
+          "Mobile App"
+        ],
+        [
+          "P009",
+          "Airport",
+          "12.0",
+          "",
+          "SUV",
+          "Credit Card"
+        ],
+        [
+          "P010",
+          "Residential",
+          "3.5",
+          "7.00",
+          "Sedan",
+          "Cash"
+        ],
+        [
+          "P011",
+          "Commercial",
+          "2.5",
+          "15.00",
+          "Truck",
+          "Credit Card"
+        ],
+        [
+          "P012",
+          "Downtown",
+          "4.5",
+          "22.50",
+          "SUV",
+          "Mobile App"
+        ],
+        [
+          "P013",
+          "",
+          "5.0",
+          "10.00",
+          "Motorcycle",
+          "Cash"
+        ],
+        [
+          "P014",
+          "Airport",
+          "6.0",
+          "24.00",
+          "Sedan",
+          "Credit Card"
+        ],
+        [
+          "P015",
+          "Residential",
+          "1.5",
+          "3.00",
+          "Motorcycle",
+          "Mobile App"
+        ],
+        [
+          "P016",
+          "Commercial",
+          "8.0",
+          "48.00",
+          "Truck",
+          "Cash"
+        ],
+        [
+          "P017",
+          "Downtown",
+          "2.0",
+          "10.00",
+          "Sedan",
+          "Credit Card"
+        ],
+        [
+          "P018",
+          "Airport",
+          "10.0",
+          "40.00",
+          "SUV",
+          "Mobile App"
+        ]
+      ]
+    },
+    "questions": [
+      "How many vehicles parked in Downtown zones used Credit Card as payment method?"
+    ],
+    "answers": [
+      "3.0"
+    ],
+    "origin_answers": [
+      "4"
+    ],
+    "ids": [
+      "nu-1259"
+    ],
+    "domain": "Transportation",
+    "subdomain": "Urban parking records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Vehicle_Type": {
+        "type": "Missing Value",
+        "original": "Sedan"
+      },
+      "9_Fee_USD": {
+        "type": "Missing Value",
+        "original": "48.00"
+      },
+      "13_Zone_Type": {
+        "type": "Missing Value",
+        "original": "Residential"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:34:43.362839+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Transportation-005",
+    "title": "Highway Toll Records",
+    "table": {
+      "header": [
+        "Vehicle_ID",
+        "Toll_Plaza",
+        "Vehicle_Type",
+        "Toll_Amount",
+        "Payment_Method",
+        "Transaction_Time"
+      ],
+      "rows": [
+        [
+          "VH001",
+          "Plaza_A",
+          "Car",
+          "5.50",
+          "ETC",
+          "08:15"
+        ],
+        [
+          "VH002",
+          "Plaza_B",
+          "Truck",
+          "12.00",
+          "Cash",
+          "08:22"
+        ],
+        [
+          "VH003",
+          "Plaza_A",
+          "Car",
+          "5.50",
+          "Credit",
+          "08:30"
+        ],
+        [
+          "VH004",
+          "Plaza_C",
+          "",
+          "5.50",
+          "ETC",
+          "08:45"
+        ],
+        [
+          "VH005",
+          "Plaza_B",
+          "Motorcycle",
+          "3.00",
+          "Cash",
+          "09:10"
+        ],
+        [
+          "VH006",
+          "Plaza_A",
+          "Truck",
+          "12.00",
+          "ETC",
+          "09:15"
+        ],
+        [
+          "VH007",
+          "Plaza_C",
+          "Car",
+          "5.50",
+          "Credit",
+          "09:30"
+        ],
+        [
+          "VH008",
+          "Plaza_B",
+          "Car",
+          "",
+          "ETC",
+          "09:45"
+        ],
+        [
+          "VH009",
+          "Plaza_A",
+          "Motorcycle",
+          "3.00",
+          "Cash",
+          "10:00"
+        ],
+        [
+          "VH010",
+          "Plaza_C",
+          "Truck",
+          "12.00",
+          "Credit",
+          "10:15"
+        ],
+        [
+          "VH011",
+          "Plaza_B",
+          "Car",
+          "5.50",
+          "ETC",
+          "10:30"
+        ],
+        [
+          "VH012",
+          "Plaza_A",
+          "Motorcycle",
+          "3.00",
+          "",
+          "10:45"
+        ],
+        [
+          "VH013",
+          "Plaza_C",
+          "Car",
+          "5.50",
+          "Cash",
+          "11:00"
+        ],
+        [
+          "VH014",
+          "Plaza_B",
+          "Truck",
+          "12.00",
+          "ETC",
+          "11:15"
+        ],
+        [
+          "VH015",
+          "Plaza_A",
+          "Car",
+          "5.50",
+          "Credit",
+          "11:30"
+        ],
+        [
+          "VH016",
+          "Plaza_C",
+          "Motorcycle",
+          "3.00",
+          "Cash",
+          "11:45"
+        ],
+        [
+          "VH017",
+          "Plaza_B",
+          "Car",
+          "5.50",
+          "ETC",
+          "12:00"
+        ],
+        [
+          "VH018",
+          "Plaza_A",
+          "Truck",
+          "12.00",
+          "Credit",
+          "12:15"
+        ]
+      ]
+    },
+    "questions": [
+      "What is the total toll revenue collected from car transactions?"
+    ],
+    "answers": [
+      "50.0"
+    ],
+    "origin_answers": [
+      "44.00"
+    ],
+    "ids": [
+      "nu-1260"
+    ],
+    "domain": "Transportation",
+    "subdomain": "Highway toll records",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Vehicle_Type": {
+        "type": "Missing Value",
+        "original": "Car"
+      },
+      "8_Toll_Amount": {
+        "type": "Missing Value",
+        "original": "5.50"
+      },
+      "12_Payment_Method": {
+        "type": "Missing Value",
+        "original": "Cash"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:34:58.706990+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Transportation-008",
+    "title": "Real-time Traffic Condition Data",
+    "table": {
+      "header": [
+        "Route_ID",
+        "Vehicle_Type",
+        "Current_Speed",
+        "Traffic_Status",
+        "Delay_Minutes",
+        "Location"
+      ],
+      "rows": [
+        [
+          "RT-101",
+          "Bus",
+          "25",
+          "Heavy",
+          "12",
+          "Downtown"
+        ],
+        [
+          "RT-102",
+          "Truck",
+          "45",
+          "Moderate",
+          "5",
+          "Industrial"
+        ],
+        [
+          "RT-103",
+          "Car",
+          "60",
+          "Light",
+          "0",
+          "Suburban"
+        ],
+        [
+          "RT-104",
+          "Bus",
+          "",
+          "Heavy",
+          "15",
+          "Downtown"
+        ],
+        [
+          "RT-105",
+          "Truck",
+          "35",
+          "Heavy",
+          "8",
+          "Industrial"
+        ],
+        [
+          "RT-106",
+          "Car",
+          "55",
+          "Light",
+          "2",
+          "Suburban"
+        ],
+        [
+          "RT-107",
+          "Bus",
+          "20",
+          "Heavy",
+          "18",
+          "Downtown"
+        ],
+        [
+          "RT-108",
+          "Truck",
+          "40",
+          "Moderate",
+          "6",
+          "Industrial"
+        ],
+        [
+          "RT-109",
+          "Car",
+          "65",
+          "Light",
+          "0",
+          "Suburban"
+        ],
+        [
+          "RT-110",
+          "Bus",
+          "30",
+          "Moderate",
+          "10",
+          "Downtown"
+        ],
+        [
+          "RT-111",
+          "",
+          "50",
+          "Moderate",
+          "4",
+          "Industrial"
+        ],
+        [
+          "RT-112",
+          "Car",
+          "58",
+          "Light",
+          "1",
+          "Suburban"
+        ],
+        [
+          "RT-113",
+          "Bus",
+          "22",
+          "Heavy",
+          "16",
+          "Downtown"
+        ],
+        [
+          "RT-114",
+          "Truck",
+          "38",
+          "Heavy",
+          "7",
+          "Industrial"
+        ],
+        [
+          "RT-115",
+          "Car",
+          "62",
+          "Light",
+          "0",
+          "Suburban"
+        ],
+        [
+          "RT-116",
+          "Bus",
+          "28",
+          "Moderate",
+          "",
+          "Downtown"
+        ],
+        [
+          "RT-117",
+          "Truck",
+          "42",
+          "Moderate",
+          "5",
+          "Industrial"
+        ],
+        [
+          "RT-118",
+          "Car",
+          "59",
+          "Light",
+          "1",
+          "Suburban"
+        ]
+      ]
+    },
+    "questions": [
+      "What is the total delay time for all trucks on the road?",
+      "How many vehicles in industrial areas have moderate traffic status?"
+    ],
+    "answers": [
+      "35.0",
+      "4.0"
+    ],
+    "origin_answers": [
+      "25",
+      "3"
+    ],
+    "ids": [
+      "nu-1261",
+      "nu-1262"
+    ],
+    "domain": "Transportation",
+    "subdomain": "Real-time traffic condition data",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "4_Current_Speed": {
+        "type": "Missing Value",
+        "original": "18"
+      },
+      "11_Vehicle_Type": {
+        "type": "Missing Value",
+        "original": "Truck"
+      },
+      "16_Delay_Minutes": {
+        "type": "Missing Value",
+        "original": "9"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:35:45.362663+08:00"
+    }
+  },
+  {
+    "table_id": "missingvalue-Transportation-009",
+    "title": "Ride-hailing Platform Order Data",
+    "table": {
+      "header": [
+        "Order_ID",
+        "Driver_ID",
+        "Vehicle_Type",
+        "Trip_Distance_Miles",
+        "Trip_Duration_Minutes",
+        "Fare_Amount"
+      ],
+      "rows": [
+        [
+          "ORD-2401",
+          "DRV-8821",
+          "Standard",
+          "3.2",
+          "18",
+          "12.50"
+        ],
+        [
+          "ORD-2402",
+          "DRV-9034",
+          "Premium",
+          "7.8",
+          "35",
+          "28.75"
+        ],
+        [
+          "ORD-2403",
+          "DRV-8821",
+          "",
+          "2.1",
+          "12",
+          "9.25"
+        ],
+        [
+          "ORD-2404",
+          "DRV-7445",
+          "Standard",
+          "5.5",
+          "28",
+          "18.00"
+        ],
+        [
+          "ORD-2405",
+          "DRV-9034",
+          "Premium",
+          "4.3",
+          "22",
+          "19.50"
+        ],
+        [
+          "ORD-2406",
+          "DRV-6712",
+          "Economy",
+          "1.8",
+          "8",
+          "6.75"
+        ],
+        [
+          "ORD-2407",
+          "DRV-8821",
+          "Standard",
+          "6.2",
+          "",
+          "21.25"
+        ],
+        [
+          "ORD-2408",
+          "DRV-7445",
+          "Premium",
+          "9.1",
+          "42",
+          "35.00"
+        ],
+        [
+          "ORD-2409",
+          "DRV-6712",
+          "Economy",
+          "2.5",
+          "15",
+          "8.50"
+        ],
+        [
+          "ORD-2410",
+          "DRV-9034",
+          "Premium",
+          "3.7",
+          "19",
+          "16.25"
+        ],
+        [
+          "ORD-2411",
+          "DRV-8821",
+          "Standard",
+          "4.8",
+          "25",
+          "17.75"
+        ],
+        [
+          "ORD-2412",
+          "DRV-7445",
+          "",
+          "8.3",
+          "38",
+          "31.50"
+        ],
+        [
+          "ORD-2413",
+          "DRV-6712",
+          "Economy",
+          "1.2",
+          "7",
+          "5.00"
+        ],
+        [
+          "ORD-2414",
+          "DRV-9034",
+          "Premium",
+          "6.9",
+          "33",
+          "26.00"
+        ],
+        [
+          "ORD-2415",
+          "DRV-8821",
+          "Standard",
+          "2.9",
+          "16",
+          "11.75"
+        ],
+        [
+          "ORD-2416",
+          "DRV-7445",
+          "Standard",
+          "5.1",
+          "27",
+          "18.50"
+        ],
+        [
+          "ORD-2417",
+          "DRV-6712",
+          "Economy",
+          "3.4",
+          "20",
+          "12.00"
+        ],
+        [
+          "ORD-2418",
+          "DRV-9034",
+          "Premium",
+          "7.2",
+          "34",
+          "27.25"
+        ]
+      ]
+    },
+    "questions": [
+      "How many Premium vehicle trips had a duration longer than 30 minutes?"
+    ],
+    "answers": [
+      "4"
+    ],
+    "origin_answers": [
+      "4"
+    ],
+    "ids": [
+      "nu-1263"
+    ],
+    "domain": "Transportation",
+    "subdomain": "Ride-hailing platform order data",
+    "dirty_flags": [
+      "Missing Value"
+    ],
+    "dirty_cells": {
+      "3_Vehicle_Type": {
+        "type": "Missing Value",
+        "original": "Standard"
+      },
+      "7_Trip_Duration_Minutes": {
+        "type": "Missing Value",
+        "original": "32"
+      },
+      "12_Vehicle_Type": {
+        "type": "Missing Value",
+        "original": "Standard"
+      }
+    },
+    "metadata": {
+      "creator": "claude-sonnet-4-2025051",
+      "generation_time": "2025-07-15T11:36:02.450092+08:00"
+    }
+  }
+]
